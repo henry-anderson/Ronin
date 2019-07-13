@@ -49,7 +49,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
 </table>
 
-Exalted Dragonlord
+### Exalted Dragonlord
 <table>
   <tr>
     <th>Boss</th>
