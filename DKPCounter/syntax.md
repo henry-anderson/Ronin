@@ -21,15 +21,26 @@ The syntax is the most important aspect to remember. If it is incorrect DKP will
 
 
 ### Boss Names and Aliases
-* **155**: spider, spidey, ulrob
-* **160**: priest
-* **165**: king
-* **170**: sreng, bolg
-* **180**: snorri, snor, snorr, troll
-* **185**: dog, doggy, dogg, ifryn
-* **190**: skath, magister
-* **195**: gron, general
-* **200**: krother, imp
-* **205**: cragskor, dragon
-* **210**: revenant, anguish
-* **215**: unox, eye
+* **155**: 155, spider, spidey, ulrob
+* **160**: 160, priest
+* **165**: 165, king
+* **170**: 170, sreng, bolg
+* **180**: 180, snorri, snor, snorr, troll
+* **185**: 185, dog, doggy, dogg, ifryn
+* **190**: 190, skath, magister
+* **195**: 195, gron, general
+* **200**: 200, krother, imp
+* **205**: 205, cragskor, dragon
+* **210**: 210, revenant, anguish
+* **215**: 215, unox, eye
+* **Aggragoth**: aggragoth, aggy, agg
+* **Hrungnir**: hrungnir, hrung, hippo
+* **Mordris**: mordris, mordy, mordi
+* **Efnisien**: efnisien, efni, necromancer, necro
+* **Proteus Base**: proteusbase, proteus_base, protb, base
+* **Proteus Prime**: proteusprime, proteus_prime, protp, prime
+* **Gelebron**: gelebron, gele, gel
+* **Bloodthorn**: bloodthorn, bt, blood, thorn
+* **Bloodthorn Root (5)**: bloodthornroot, bloodthorn_root, btroot, root
+* **Factions**: factions, faction, lich, reaver
+* **Ring Boss**: ringboss, ring_boss, rb, rbs, ring
