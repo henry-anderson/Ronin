@@ -68,7 +68,7 @@
 #### Bloodthorn
 <pre>bt 6 kill on Thallen, TimeShift</pre>
 
-## Arcane and Garden Others
+## Arcane and Gardens extra
 
 #### Ring Boss
 <pre>rb 5 kill on Thallen, TimeShift</pre>
