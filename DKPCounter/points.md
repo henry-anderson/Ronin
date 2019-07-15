@@ -154,7 +154,6 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
 <table>
   <tr>
     <th>Boss</th>
-    <th>Camp</th>
     <th>Kill 5*</th>
     <th>Kill 6*</th>
   </tr>
