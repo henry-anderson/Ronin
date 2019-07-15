@@ -1,7 +1,7 @@
 ## Points
 
 A certain amount of DKP is awarded for killing a boss or camping. These amounts are shown below.
-
+  
 ### Dragonlord
 <table>
   <tr>
@@ -148,4 +148,29 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td>Bloodthorn</td>
     <td>150</td>
   </tr>
-  
+</table>
+
+### Arcane and Gardens Other
+<table>
+  <tr>
+    <th>Boss</th>
+    <th>Camp</th>
+    <th>Kill 5*</th>
+    <th>Kill 6*</th>
+  </tr>
+  <tr>
+    <td>Ring Boss</td>
+    <td>20</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>Factions</td>
+    <td></td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Bloodthorn Root</td>
+    <td>10</td>
+    <td></td>
+  </tr>
+</table>
