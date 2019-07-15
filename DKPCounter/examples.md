@@ -31,7 +31,7 @@
 <pre>190 6 kill on Thallen, TimeShift</pre>
 
 #### Gron (195)
-<pre>gron 5 kill on Thallen, TimeShift</pre
+<pre>gron 5 kill on Thallen, TimeShift</pre>
 
 #### Krothur (200)
 <pre>imp 4 kill on Thallen, TimeShift</pre>
