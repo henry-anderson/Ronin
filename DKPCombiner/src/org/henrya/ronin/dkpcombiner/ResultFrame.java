@@ -1,25 +1,24 @@
-package org.henrya.ronin.dkpcounter.frames;
+package org.henrya.ronin.dkpcombiner;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
 import javax.swing.JScrollPane;
 
 /**
- * Represents the frame that shows up after the "Count" button is pressed
+ * Represents the frame that shows up after the button is pressed
  * @author Henry Anderson
- *
  */
-public class CountedFrame extends JFrame {
+public class ResultFrame extends JFrame {
 	private JPanel contentPane;
 	private ConsolePane pane = new ConsolePane();
-
 
 	/**
 	 * Constructs the frame
 	 */
-	public CountedFrame() {
-		this.setTitle("Counted Points");
+	public ResultFrame() {
+		this.setTitle("Total Points");
 		this.setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 500, 600);
@@ -35,10 +34,9 @@ public class CountedFrame extends JFrame {
 	
 	/**
 	 * Returns the pane
-	 * @return
+	 * @return The pane
 	 */
 	public ConsolePane getPane() {
 		return this.pane;
 	}
-	
 }

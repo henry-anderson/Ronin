@@ -8,7 +8,7 @@ import org.henrya.ronin.dkpcounter.PointStore;
 import org.henrya.ronin.dkpcounter.PointType;
 
 /**
- * A class that listens for when the "Count" button is pressed
+ * A class that listens for when the button is pressed
  * @author Henry Anderson
  * 
  */
@@ -31,7 +31,7 @@ public class ButtonListener implements ActionListener {
 	 */
 	@Override
 	public void actionPerformed(ActionEvent event) {
-		final CountedFrame frame = new CountedFrame();
+		final ResultFrame frame = new ResultFrame();
 		frame.setVisible(true);
 		this.mainFrame.setVisible(false);
 		
