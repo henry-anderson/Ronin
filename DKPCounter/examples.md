@@ -3,9 +3,9 @@
 * <a href="examples.md">Example Syntax</a>
 * <a href="points.md">Points Awarded</a>
 
-# Examples
+## Examples
 
-## Dragonlord
+### Dragonlord
 
 #### Spider (155)
 <pre>spider 5 kill on thallen, timeshift</pre>
@@ -22,7 +22,7 @@
 #### Snorri (180)
 <pre>snorri 6 camp on Thallen, TimeShift</pre>
 
-## Exalted Dragonlord
+### Exalted Dragonlord
 
 #### Ifryn (185)
 <pre>185 5 kill on Thallen, TimeShift</pre>
@@ -45,7 +45,7 @@
 #### Unox (215)
 <pre>215 6 kill on Thallen, TimeShift</pre>
 
-## Raids
+### Raids
 
 #### Aggragoth
 <pre>aggy 6 kill on Thallen, TimeShift</pre>
@@ -68,7 +68,7 @@
 #### Bloodthorn
 <pre>bt 6 kill on Thallen, TimeShift</pre>
 
-## Arcane and Gardens extra
+### Arcane and Gardens extra
 
 #### Ring Boss
 <pre>rb 5 kill on Thallen, TimeShift</pre>
