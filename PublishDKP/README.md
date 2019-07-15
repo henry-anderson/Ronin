@@ -4,6 +4,15 @@ This program takes a list of players followed by a number of points to award and
 
 ## Configuration
 
+Before PublishDKP can be used it must be configured. There should be a config.txt file in the same folder as the jar file. This is the configuration file and it will look something like this.
+
+<pre>
+url: https://www.webdkp.com/dkp/Reborn/Ronin
+username: username123
+password: password123
+</pre>
+
+The "url" parameter is the URL of the table while "username" and "password" refer to admin login information required to modify the table.
 
 ## Usage
 
