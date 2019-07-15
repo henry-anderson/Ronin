@@ -1,6 +1,6 @@
-## Examples
+# Examples
 
-### Dragonlord
+## Dragonlord
 
 #### Spider (155)
 <pre>spider 5 kill on thallen, timeshift</pre>
@@ -17,7 +17,7 @@
 #### Snorri (180)
 <pre>snorri 6 camp on Thallen, TimeShift</pre>
 
-### Exaulted Dragonlord
+## Exalted Dragonlord
 
 #### Ifryn (185)
 <pre>185 5 kill on Thallen, TimeShift</pre>
@@ -39,3 +39,40 @@
 
 #### Unox (215)
 <pre>215 6 kill on Thallen, TimeShift</pre>
+
+## Raids
+
+#### Aggragoth
+<pre>aggy 6 kill on Thallen, TimeShift</pre>
+
+#### Mordris
+<pre>mordy 6 kill on Thallen, TimeShift</pre>
+
+#### Efnisien
+<pre>necro 6 kill on Thallen, TimeShift</pre>
+
+#### Proteus Base
+<pre>base 6 kill on Thallen, TimeShift</pre>
+
+#### Proteus Prime
+<pre>prime 6 kill on Thallen, TimeShift</pre>
+
+#### Gelebron
+<pre>gele 6 kill on Thallen, TimeShift</pre>
+
+#### Bloodthorn
+<pre>bt 6 kill on Thallen, TimeShift</pre>
+
+## Arcane and Garden Others
+
+#### Ring Boss
+<pre>rb 5 kill on Thallen, TimeShift</pre>
+
+#### Factions
+<pre>factions 6 kill on Thallen, TimeShift</pre>
+
+#### Efnisien
+<pre>necro 6 kill on Thallen, TimeShift</pre>
+
+#### Bloodthorn Root (5*)
+<pre>root 5 kill on Thallen, TimeShift</pre>
