@@ -29,3 +29,9 @@ Unpleased, 505
 </pre>
 
 This will add the specified amount of points to the player on WebDKP. If the player doesn't exist in the WebDKP table they will be created.
+
+## Libraries
+
+* [HTTPicnic](https://github.com/henry-anderson/HTTPicnic)
+* [configJ](https://github.com/henry-anderson/configJ)
+* [JSON-java](https://github.com/stleary/JSON-java)
