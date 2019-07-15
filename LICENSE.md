@@ -1,10 +1,10 @@
 Copyright (c) 2019 Henry Anderson
 
-Permission is hereby granted, free of charge, to any general of the clan Ronin
-on the server Belenus in Celtic Heroes obtaining a copy of this software and 
-associated documentation files (the "Software"), the rights
-to use, copy, modify, merge, publish, distribute, and to permit persons to whom the 
-Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any persons holding the
+rank of "General" in the clan Ronin on the server Belenus in the iOS application, 
+Celtic Heroes obtaining a copy of this software and associated documentation 
+files (the "Software"), the rights to use, copy, modify, merge, publish, distribute, and 
+to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
