@@ -1,6 +1,10 @@
+## DKPCounter
+* <a href="syntax.md">Syntax</a>
+* <a href="examples.md">Example Syntax</a>
+* <a href="points.md">Points Awarded</a>
 ## Syntax
 
-The syntax is the most important aspect to remember. If it is incorrect DKP will not be counted.
+The syntax is the most important aspect to the software. If it is incorrect DKP will not be counted.
 
 <pre>[boss] [stars] [camp/kill] [player1, player2, player3...]</pre>
 
