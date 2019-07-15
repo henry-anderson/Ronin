@@ -109,3 +109,43 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td>15</td>
   </tr>
 </table>
+
+### Raids
+<table>
+  <tr>
+    <th>Boss</th>
+    <th>Kill 6*</th>
+  </tr>
+  <tr>
+    <td>Aggragoth</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Hrungnir</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Mordris</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Efnisien</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Proteus Base</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Proteus Prime</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>Gelebron</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Bloodthorn</td>
+    <td>150</td>
+  </tr>
+  
