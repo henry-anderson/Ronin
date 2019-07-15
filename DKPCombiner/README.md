@@ -19,6 +19,7 @@ Zenoia, 10
 Thallen, 20
 
 Kilzalot, 10
+Zenoia, 5
 </pre>
 The output would look like this.
 
@@ -26,7 +27,7 @@ The output would look like this.
 kilzalot, 33
 thallen, 25
 timeshift, 24
-zenoia, 10
+zenoia, 15
 </pre>
 
 Player names are not case sensitive so capitalization is irrelevant.
