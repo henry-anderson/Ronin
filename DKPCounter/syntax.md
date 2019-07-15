@@ -4,7 +4,7 @@
 * <a href="points.md">Points Awarded</a>
 ## Syntax
 
-The syntax is the most important aspect to the software. If it is incorrect DKP will not be counted.
+The syntax is the most important aspect to the software. If it is incorrect DKP will not be counted. It is important to note that even for raids such as Mordris and Gelebron the stars must be specified.
 
 <pre>[boss] [stars] [camp/kill] [player1, player2, player3...]</pre>
 
@@ -22,6 +22,8 @@ The syntax is the most important aspect to the software. If it is incorrect DKP 
 <pre>Sreng 4 campkill on Thallen, Pathetic Healz, Alvain, Cat Balou</pre>
 <pre>Spider 5 kill on Thallen, Crawlin, Sugar Kane</pre>
 <pre>215 6 camp on Thallen, Kilzalot, Eban, Valla Rees, Kiara Evangelin</pre>
+<pre>aggy 6 kill on Thallen, Unpleased, dragon shade</pre>
+<pre>necro 6 kill on TimeShift, ExBlood, Hugh Jaynus</pre>
 
 
 ### Boss Names and Aliases
