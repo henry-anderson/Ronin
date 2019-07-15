@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
 	
 	public MainFrame() {
 		/* Creates the frame */
-		this.setTitle("Combine DKP Groups");
+		this.setTitle("Publish DKP");
 		this.setResizable(false);
 		this.area.setEditable(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -32,7 +32,7 @@ public class MainFrame extends JFrame {
 		contentPane.add(scrollPane);
 		
 		/* Creates the count button */
-		JButton checkButton = new JButton("Combine");
+		JButton checkButton = new JButton("Publish");
 		checkButton.setBounds(0, 482, 350, 96);
 		checkButton.addActionListener(new ButtonListener(this));
 		contentPane.add(checkButton);
