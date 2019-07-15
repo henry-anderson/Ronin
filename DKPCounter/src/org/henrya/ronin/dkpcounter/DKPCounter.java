@@ -1,6 +1,6 @@
-package org.henrya.dkpcounter;
+package org.henrya.ronin.dkpcounter;
 
-import org.henrya.dkpcounter.frames.MainFrame;
+import org.henrya.ronin.dkpcounter.frames.MainFrame;
 
 /**
  * @author Henry Anderson

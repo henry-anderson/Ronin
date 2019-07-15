@@ -1,4 +1,4 @@
-package org.henrya.dkpcounter;
+package org.henrya.ronin.dkpcounter;
 
 /**
  * A class for parsing a raw line of text using the following syntax

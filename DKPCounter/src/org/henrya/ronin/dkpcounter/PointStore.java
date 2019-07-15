@@ -1,4 +1,4 @@
-package org.henrya.dkpcounter;
+package org.henrya.ronin.dkpcounter;
 
 import java.util.TreeMap;
 

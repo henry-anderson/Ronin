@@ -1,4 +1,4 @@
-package org.henrya.dkpcounter.frames;
+package org.henrya.ronin.dkpcounter.frames;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

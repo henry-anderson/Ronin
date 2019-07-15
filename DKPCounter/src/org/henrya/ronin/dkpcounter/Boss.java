@@ -1,8 +1,8 @@
-package org.henrya.dkpcounter;
+package org.henrya.ronin.dkpcounter;
 
 /**
  * A class representative of each boss that points are awarded for
- * @author henryanderson
+ * @author Henry Anderson
  *
  */
 public enum Boss {
@@ -20,7 +20,23 @@ public enum Boss {
 	EDL_200(new String[] {"200", "krother", "imp"}, 0, new int[] {5, 10, 15}),
 	EDL_205(new String[] {"205", "cragskor", "dragon"}, 5, new int[] {5, 10, 15}),
 	EDL_210(new String[] {"210", "revenant", "anguish"}, 5, new int[] {5, 10, 15}),
-	EDL_215(new String[] {"215", "unox", "eye"}, 5, new int[] {5, 10, 15});
+	EDL_215(new String[] {"215", "unox", "eye"}, 5, new int[] {5, 10, 15}),
+	
+	/* Raids */
+	AGGRAGOTH(new String[] {"aggragoth", "aggy", "agg"}, 0, new int[] {0, 0, 10}),
+	HRUNGNIR(new String[] {"hrungnir", "hrung", "hippo"}, 0, new int[] {0, 0, 15}),
+	MORDRIS(new String[] {"mordris", "mordy", "mord"}, 0, new int[] {0, 0, 20}),
+	EFNISIEN(new String[] {"efnisien", "efni", "necromancer", "necro"}, 0, new int[] {0, 0, 25}),
+	
+	PROTEUS_BASE(new String[] {"proteusbase", "proteus_base", "protb", "base"}, 0, new int[] {0, 0, 60}),
+	PROTEUS_PRIME(new String[] {"proteusprime", "proteus_prime", "protp", "prime"}, 0, new int[] {0, 0, 80}),
+	GELEBRON(new String[] {"gelebron", "gele", "gel"}, 0, new int[] {0, 0, 100}),
+	BLOODTHORN(new String[] {"bloodthorn", "bt", "blood", "thorn"}, 0, new int[] {0, 0, 150}),
+
+	/* Arcane and Gardens extra */
+	RING_BOSS(new String[] {"ringboss", "ring_boss", "rb", "rbs", "ring"}, 0, new int[] {0, 20, 40}),
+	FACTIONS(new String[] {"factions", "faction", "lich", "reaver"}, 0, new int[] {0, 0, 30}),
+	BLOODTHORN_ROOT(new String[] {"bloodthornroot", "bloodthorn_root", "btroot", "bt_root", "root"}, 0, new int[] {0, 10, 0});
 
 	private String[] aliases;
 	private int campPoints;

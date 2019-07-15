@@ -1,4 +1,4 @@
-package org.henrya.dkpcounter;
+package org.henrya.ronin.dkpcounter;
 
 /**
  * An enum that represents whether the points should be for camping, killing, or both

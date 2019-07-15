@@ -1,11 +1,11 @@
-package org.henrya.dkpcounter.frames;
+package org.henrya.ronin.dkpcounter.frames;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import org.henrya.dkpcounter.PointParser;
-import org.henrya.dkpcounter.PointStore;
-import org.henrya.dkpcounter.PointType;
+import org.henrya.ronin.dkpcounter.PointParser;
+import org.henrya.ronin.dkpcounter.PointStore;
+import org.henrya.ronin.dkpcounter.PointType;
 
 /**
  * A class that listens for when the "Count" button is pressed

@@ -1,4 +1,4 @@
-package org.henrya.dkpcounter.frames;
+package org.henrya.ronin.dkpcounter.frames;
 
 import java.awt.Color;
 
