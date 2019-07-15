@@ -150,7 +150,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
 </table>
 
-### Arcane and Gardens Other
+## Arcane and Gardens Extra
 <table>
   <tr>
     <th>Boss</th>
