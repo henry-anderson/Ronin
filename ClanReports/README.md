@@ -1,6 +1,6 @@
 # ClanReports
 
-ClanReports generates HTML reports on clan activity. A number of these reports can be found at [ronin.henrya.org/reports](http://ronin.henrya.org/reports).
+ClanReports generates HTML reports on clan activity. A number of these reports can be found at [ronin.henrya.org/reports](http://ronin.henrya.org/reports)
 
 ## Usage
 
