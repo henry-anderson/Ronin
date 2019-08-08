@@ -1,12 +1,12 @@
-## DKPCounter
+# DKPCounter
 * <a href="syntax.md">Syntax</a>
 * <a href="examples.md">Example Syntax</a>
 * <a href="points.md">Points Awarded</a>
-## Points
+# Points
 
 A certain amount of DKP is awarded for killing a boss or camping. These amounts are shown below.
   
-### Dragonlord
+## Dragonlord
 <table>
   <tr>
     <th>Boss</th>
@@ -53,7 +53,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
 </table>
 
-### Exalted Dragonlord
+## Exalted Dragonlord
 <table>
   <tr>
     <th>Boss</th>
@@ -114,7 +114,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
 </table>
 
-### Raids
+## Raids
 <table>
   <tr>
     <th>Boss</th>
