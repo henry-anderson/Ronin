@@ -74,22 +74,22 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td>Skath (190)</td>
     <td>0</td>
     <td>5</td>
-    <td>10</td>
     <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Gron (195)</td>
     <td>0</td>
     <td>5</td>
-    <td>10</td>
     <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Krothur (200)</td>
     <td>0</td>
     <td>5</td>
-    <td>10</td>
     <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Cragskor (205)</td>
@@ -102,15 +102,15 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td>Revenant (210)</td>
     <td>5</td>
     <td>5</td>
-    <td>10</td>
     <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Unox (215)</td>
     <td>5</td>
     <td>5</td>
-    <td>10</td>
     <td>15</td>
+    <td>20</td>
   </tr>
 </table>
 
@@ -175,5 +175,24 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td>Bloodthorn Root</td>
     <td>10</td>
     <td></td>
+  </tr>
+</table>
+
+## Legacies
+<table>
+  <tr>
+    <th>Boss</th>
+    <th>Kill 5*</th>
+    <th>Kill 6*</th>
+  </tr>
+  <tr>
+    <td>Legacy 150-179</td>
+    <td>5</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Legacy 180+</td>
+    <td>10</td>
+    <td>15</td>
   </tr>
 </table>
