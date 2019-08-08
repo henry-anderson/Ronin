@@ -50,3 +50,5 @@ The syntax is the most important aspect to the software. If it is incorrect DKP 
 * **Bloodthorn Root (5)**: bloodthornroot, bloodthorn_root, btroot, root
 * **Factions**: factions, faction, lich, reaver
 * **Ring Boss**: ringboss, ring_boss, rb, rbs, ring
+* **Legacy 150-179**: legacy150
+* **Legacy 180+**: legacy180
