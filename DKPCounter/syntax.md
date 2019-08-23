@@ -50,5 +50,5 @@ The syntax is the most important aspect to the software. If it is incorrect DKP 
 * **Bloodthorn Root (5)**: bloodthornroot, bloodthorn_root, btroot, root
 * **Factions**: factions, faction, lich, reaver
 * **Ring Boss**: ringboss, ring_boss, rb, rbs, ring
-* **Legacy 150-179**: legacy150
-* **Legacy 180+**: legacy180
+* **Legacy 150-179**: legacy150, legacy_150, witchfinder, hopkins, comrack, akais, hurricanes, typhoons, garyn, devestator, jalan, paradai, blizzardgore, synak
+* **Legacy 180+**: legacy180, legacy_180, natan, athatch, garanak, gara, urchaid, maelstrom, whirlwinds, whirlwind, smolach, annihilator, skain, osan, blight, tomb
