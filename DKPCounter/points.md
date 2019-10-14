@@ -118,6 +118,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
 <table>
   <tr>
     <th>Boss</th>
+    <th>Camp</th>
     <th>Kill 6*</th>
   </tr>
   <tr>
@@ -138,10 +139,12 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Proteus Base</td>
+    <td>5</td>
     <td>60</td>
   </tr>
   <tr>
     <td>Proteus Prime</td>
+    <td>5</td>
     <td>80</td>
   </tr>
   <tr>
