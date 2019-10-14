@@ -93,7 +93,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Cragskor (205)</td>
-    <td>5</td>
+    <td>0</td>
     <td>5</td>
     <td>10</td>
     <td>15</td>
