@@ -20,7 +20,7 @@ function getAlias(line) {
         let boss = getBosses()[i];
         for(let j = 0; j < boss.aliases.length; j++) {
             let alias = boss.aliases[j];
-            if(line.includes(alias)) {
+            if(line.includes(alias + " ")) {
                 return alias;
             }
         }

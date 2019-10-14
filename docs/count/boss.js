@@ -87,7 +87,7 @@ const Boss = {
     EDL_205: {
         aliases: ["205", "cragskor", "dragon"],
         points: {
-            camp: 5,
+            camp: 0,
             kill4: 5,
             kill5: 10,
             kill6: 15,
@@ -105,7 +105,7 @@ const Boss = {
     EDL_215: {
         aliases: ["215", "unox", "eye"],
         points: {
-            camp: 0,
+            camp: 5,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -132,7 +132,7 @@ const Boss = {
         }
     },
     MORDRIS: {
-        aliases: ["mordris", "mordy", "mord"],
+        aliases: ["mordris", "mordy", "mord", "mordi"],
         points: {
             camp: 0,
             kill4: 0,
@@ -153,7 +153,7 @@ const Boss = {
     PROTEUS_BASE: {
         aliases: ["proteusbase", "proteus_base", "protb", "base"],
         points: {
-            camp: 0,
+            camp: 5,
             kill4: 0,
             kill5: 0,
             kill6: 60,
@@ -162,7 +162,7 @@ const Boss = {
     PROTEUS_PRIME: {
         aliases: ["proteusprime", "proteus_prime", "protp", "prime"],
         points: {
-            camp: 0,
+            camp: 5,
             kill4: 0,
             kill5: 0,
             kill6: 80,
