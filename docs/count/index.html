@@ -28,7 +28,7 @@
 		var playerAliases = "princes eliktra,princess eliktra,princs eliktra";
 		
 		var client = new XMLHttpRequest();
-		client.open('GET', 'https://raw.githubusercontent.com/henry-anderson/Ronin/master/DKPCounter/src/org/henrya/ronin/dkpcounter/Boss.java');
+		client.open('GET', 'https://raw.githubusercontent.com/henry-anderson/Ronin/master/docs/count/aliases.txt');
 		client.onload = function() {
   			playerAliases = client.responseText
 			document.getElementById("playeraliases").value = playerAliases;
