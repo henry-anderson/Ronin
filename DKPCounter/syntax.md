@@ -45,7 +45,7 @@ The syntax is the most important aspect to the software. If it is incorrect DKP 
 <pre>level [start]-[finish] on [player]</pre>
 * **[start]** An integer representing the level the player started at
   - This must be an integer greater or equal to 155 
-* **[start]** An integer representing the level the player ended at
+* **[end]** An integer representing the level the player ended at
   - This must be an integer greater than the starting value and less than or equal to 240
 * **[player]** The name of the player.
 
