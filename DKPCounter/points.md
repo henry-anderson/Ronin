@@ -4,7 +4,7 @@
 * <a href="points.md">Points Awarded</a>
 # Points
 
-A certain amount of DKP is awarded for killing a boss or camping. These amounts are shown below.
+A certain amount of DKP is awarded for killing bosses, camping, or leveling. Camping raids award 7 points per hour camped. Eligible raids include Hrungnir, Efnisien, Mordris, and Gelebron. Leveling rewards 5 points every 5 levels above 155. The table below shows the points each boss is worth. For certain bosses additional "camp" points are awarded if the player is there before the boss spawns.
   
 ## Dragonlord
 <table>
@@ -100,14 +100,14 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Revenant (210)</td>
-    <td>5</td>
+    <td>10</td>
     <td>5</td>
     <td>15</td>
     <td>20</td>
   </tr>
   <tr>
     <td>Unox (215)</td>
-    <td>5</td>
+    <td>10</td>
     <td>5</td>
     <td>15</td>
     <td>20</td>
@@ -129,17 +129,17 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   <tr>
     <td>Hrungnir</td>
     <td></td>
-    <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Mordris</td>
     <td></td>
-    <td>20</td>
+    <td>30</td>
   </tr>
   <tr>
     <td>Efnisien</td>
     <td></td>
-    <td>25</td>
+    <td>40</td>
   </tr>
   <tr>
     <td>Proteus Base</td>
@@ -161,6 +161,11 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
     <td></td>
     <td>150</td>
   </tr>
+  <tr>
+    <td>Dhiothu</td>
+    <td></td>
+    <td>200</td>
+  </tr>
 </table>
 
 ## Arcane and Gardens Extra
@@ -172,7 +177,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Ring Boss</td>
-    <td>20</td>
+    <td>10</td>
     <td>40</td>
   </tr>
   <tr>
