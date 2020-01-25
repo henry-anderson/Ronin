@@ -4,7 +4,7 @@
 * <a href="points.md">Points Awarded</a>
 # Points
 
-A certain amount of DKP is awarded for killing a boss or camping. These amounts are shown below.
+A certain amount of DKP is awarded for killing bosses, camping, or leveling. Camping raids hippo or above award 7 points per hour camped. Leveling rewards 5 points every 5 levels above 155. The table below shows the points each boss is worth. For certain bosses additional "camp" points are awarded if the player is there before the boss spawns.
   
 ## Dragonlord
 <table>
