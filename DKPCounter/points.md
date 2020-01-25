@@ -100,14 +100,14 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Revenant (210)</td>
-    <td>5</td>
+    <td>10</td>
     <td>5</td>
     <td>15</td>
     <td>20</td>
   </tr>
   <tr>
     <td>Unox (215)</td>
-    <td>5</td>
+    <td>10</td>
     <td>5</td>
     <td>15</td>
     <td>20</td>
@@ -129,17 +129,17 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   <tr>
     <td>Hrungnir</td>
     <td></td>
-    <td>15</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Mordris</td>
     <td></td>
-    <td>20</td>
+    <td>30</td>
   </tr>
   <tr>
     <td>Efnisien</td>
     <td></td>
-    <td>25</td>
+    <td>40</td>
   </tr>
   <tr>
     <td>Proteus Base</td>
@@ -172,7 +172,7 @@ A certain amount of DKP is awarded for killing a boss or camping. These amounts 
   </tr>
   <tr>
     <td>Ring Boss</td>
-    <td>20</td>
+    <td>10</td>
     <td>40</td>
   </tr>
   <tr>
