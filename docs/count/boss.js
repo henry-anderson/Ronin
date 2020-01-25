@@ -186,6 +186,15 @@ const Boss = {
             kill6: 150,
         }
     },
+    DHIOTHU: {
+        aliases: ["dhiothu", "dhio", "dino"],
+        points: {
+            camp: 0,
+            kill4: 0,
+            kill5: 0,
+            kill6: 200,
+        }
+    },
     /** Arcane and Garden extra **/
     RING_BOSS: {
         aliases: ["ringboss", "ring_boss", "rb", "rbs", "ring"],
