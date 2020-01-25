@@ -24,8 +24,8 @@ function countPoints(formatted) {
 	            if (parser.pointType === PointType.KILL) {
 	                let points = getKillPoints(parser.boss, parser.stars);
 	                for (let j = 0; j < parser.players.length; j++) {
-	                    let player = parser.players[j].trim();
-	                    addPoints(getPlayerFromAlias(player), points);
+						let player = parser.players[j].trim();
+						addPoints(getPlayerFromAlias(player), points);
 	                }
 	            } else if (parser.pointType === PointType.CAMP) {
 	                let points = parser.boss.points.camp;
