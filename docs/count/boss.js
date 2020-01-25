@@ -96,7 +96,7 @@ const Boss = {
     EDL_210: {
         aliases: ["210", "revenant", "anguish"],
         points: {
-            camp: 5,
+            camp: 10,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -105,7 +105,7 @@ const Boss = {
     EDL_215: {
         aliases: ["215", "unox", "eye"],
         points: {
-            camp: 5,
+            camp: 10,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -128,7 +128,7 @@ const Boss = {
             camp: 0,
             kill4: 0,
             kill5: 0,
-            kill6: 15,
+            kill6: 20,
         }
     },
     MORDRIS: {
@@ -137,7 +137,7 @@ const Boss = {
             camp: 0,
             kill4: 0,
             kill5: 0,
-            kill6: 20,
+            kill6: 35,
         }
     },
     EFNISIEN: {
@@ -146,7 +146,7 @@ const Boss = {
             camp: 0,
             kill4: 0,
             kill5: 0,
-            kill6: 25,
+            kill6: 40,
         }
     },
 
@@ -192,7 +192,7 @@ const Boss = {
         points: {
             camp: 0,
             kill4: 0,
-            kill5: 20,
+            kill5: 10,
             kill6: 40,
         }
     },
