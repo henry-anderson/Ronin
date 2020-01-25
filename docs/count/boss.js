@@ -269,8 +269,24 @@ const PointType = {
     CAMP_KILL: ["campkill", "ckill", "campk", "campkill", "killcamp", "kcamp", "camp/kill", "kill/camp"],
 };
 
+//points here are per hour camped or per level
+const BonusType = {
+	LEVEL: {
+        aliases: ["leveled", "level", "levelled"],
+        points: 1,
+    },
+	CAMP: {
+        aliases: ["camped"],
+        points: 7,
+    },
+};
+
 function getPointTypes() {
     return [PointType.CAMP, PointType.KILL, PointType.CAMP_KILL];
+}
+
+function getBonusTypes() {
+    return [BonusType.LEVEL, BonusType.CAMP];
 }
 
 function getPointType(type) {
@@ -279,6 +295,18 @@ function getPointType(type) {
         for(let j = 0; j < pointType.length; j++) {
             if(pointType[j] === type) {
                 return pointType;
+            }
+        }
+    }
+    return null;
+}
+
+function getBonusType(name) {
+    for(let i = 0; i < getBonusTypes().length; i++) {
+        let bonus = getBonusTypes()[i];
+        for(let j = 0; j < bonus.aliases.length; j++) {
+            if(bonus.aliases[j] === name) {
+                return bonus;
             }
         }
     }
