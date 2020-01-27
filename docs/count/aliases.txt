@@ -56,7 +56,7 @@ o0neith0o,neith,ooneithoo,00neith00,o0neith,ooneith,neith0o,neithoo
 october31,october3,october1,october 31,october
 palaemon,palamon,palemon
 papakaterishki,papakatershki,papakaterishki
-pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior
+pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior,pinky's warrior
 princes eliktra,princess eliktra,pinces eliktra,princess,princes, princes elektra,princess elektra
 pytho,pyth
 r0ogue,roogue
