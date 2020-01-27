@@ -75,7 +75,7 @@ slashemup,slashmeup,slashem,slshemup,slashem up
 slowking,slow king,slowkin
 slowpoke,slow poke,slowpok
 sneakashell,sneakshell,sneaka shell,sneak shell
-spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath
+spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath,spritialdeath
 spring willow,springwillow,spring,spring willo
 steinberg,stinberg,stenberg,stein berg,
 stop it,stopit
