@@ -40,7 +40,7 @@ lifeofsword,lifeof,lfeofsword,lifeofswourd
 lightemup,lightmeup,ligthemup,lightem up
 liljezuz,lil jezuz,lijezuz
 louisen,louise,lousen,loiusen
-luckyandfun,lucky,luckyfun,luckandfun
+luckyandfun,lucky,luckyfun,luckandfun,lucyandfun
 lutece,letuce,lutec
 m1xf1x,m1xfix,mixfix,mixf1x,m1x f1x
 mag1cal me,magical me,magicalme,mag1calme
@@ -53,6 +53,7 @@ mightydru1d,mightydruid,mightdru1d,mighty druid
 mightyr4nger,mightyranger,mightranger, mightr4nger, mighty r4nger
 moonblood,moon blood,moonbloo,mooblood
 o0neith0o,neith,ooneithoo,00neith00,o0neith,ooneith,neith0o,neithoo
+october31,october3,october1,october 31,october
 palaemon,palamon,palemon
 papakaterishki,papakatershki,papakaterishki
 pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior
