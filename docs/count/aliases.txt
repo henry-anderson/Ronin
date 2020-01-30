@@ -9,6 +9,7 @@ brodee,brode,brdee
 burdigal,brdigal,berdigal,burdigel,berdigel
 camb0x69,camb0x,cmb0x69,camb0,cambx69
 cascade,cascad,cascde
+calislahn tryst,calislahn tyrst,calislahn,calislhan tryst,calis
 cheiron,chevron,chiron,cherion,chieron
 cool strike,cook strike,coolstrike
 dark hunter, darkhunter
@@ -33,12 +34,13 @@ jezuz09,jezuz,jesus,jesus09,jezus09,jesuz09
 jknielsboss,jkniel,jnielsboss,jknelsboss
 jolle,jole,jollee,jolie
 kilzalot,kilz,kilza,klzalot,kilz alot
+king71111,king711111,king7111,king711,king71,king7,king 71111,kin71111
 lashy,lashe,lashie
 lifeofsword,lifeof,lfeofsword,lifeofswourd
-Lightemup,lightmeup,ligthemup,lightem up
+lightemup,lightmeup,ligthemup,lightem up
 liljezuz,lil jezuz,lijezuz
 louisen,louise,lousen,loiusen
-luckyandfun,lucky,luckyfun,luckandfun
+luckyandfun,lucky,luckyfun,luckandfun,lucyandfun
 lutece,letuce,lutec
 m1xf1x,m1xfix,mixfix,mixf1x,m1x f1x
 mag1cal me,magical me,magicalme,mag1calme
@@ -51,9 +53,11 @@ mightydru1d,mightydruid,mightdru1d,mighty druid
 mightyr4nger,mightyranger,mightranger, mightr4nger, mighty r4nger
 moonblood,moon blood,moonbloo,mooblood
 o0neith0o,neith,ooneithoo,00neith00,o0neith,ooneith,neith0o,neithoo
+october31,october3,october1,october 31,october
+ori0n,orion,or10n
 palaemon,palamon,palemon
 papakaterishki,papakatershki,papakaterishki
-pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior
+pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior,pinky's warrior
 princes eliktra,princess eliktra,pinces eliktra,princess,princes, princes elektra,princess elektra
 pytho,pyth
 r0ogue,roogue
@@ -72,7 +76,7 @@ slashemup,slashmeup,slashem,slshemup,slashem up
 slowking,slow king,slowkin
 slowpoke,slow poke,slowpok
 sneakashell,sneakshell,sneaka shell,sneak shell
-spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath
+spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath,spritialdeath
 spring willow,springwillow,spring,spring willo
 steinberg,stinberg,stenberg,stein berg,
 stop it,stopit
