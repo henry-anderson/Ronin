@@ -4,6 +4,7 @@ const Boss = {
     DL_155: {
         aliases: ["155", "spider", "spidey", "ulrob"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 2,
             kill5: 5,
@@ -13,6 +14,7 @@ const Boss = {
     DL_160: {
         aliases: ["160", "priest"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 2,
             kill5: 5,
@@ -22,6 +24,7 @@ const Boss = {
     DL_165: {
         aliases: ["165", "king"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 2,
             kill5: 5,
@@ -31,6 +34,7 @@ const Boss = {
     DL_170: {
         aliases: ["170", "sreng", "bolg"],
         points: {
+            attempt: 0,
             camp: 5,
             kill4: 2,
             kill5: 5,
@@ -40,6 +44,7 @@ const Boss = {
     DL_180: {
         aliases: ["180", "snorri", "snor", "snorr", "troll"],
         points: {
+            attempt: 0,
             camp: 5,
             kill4: 2,
             kill5: 5,
@@ -51,6 +56,7 @@ const Boss = {
     EDL_185: {
         aliases: ["185", "dog", "doggy", "dogg", "ifryn"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 5,
             kill5: 10,
@@ -60,6 +66,7 @@ const Boss = {
     EDL_190: {
         aliases: ["190", "skath", "magister"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 5,
             kill5: 15,
@@ -69,6 +76,7 @@ const Boss = {
     EDL_195: {
         aliases: ["195", "gron", "general"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 5,
             kill5: 15,
@@ -78,6 +86,7 @@ const Boss = {
     EDL_200: {
         aliases: ["200", "krother", "imp"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 5,
             kill5: 15,
@@ -87,6 +96,7 @@ const Boss = {
     EDL_205: {
         aliases: ["205", "cragskor", "dragon"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 5,
             kill5: 10,
@@ -96,6 +106,7 @@ const Boss = {
     EDL_210: {
         aliases: ["210", "revenant", "anguish"],
         points: {
+            attempt: 0,
             camp: 10,
             kill4: 5,
             kill5: 15,
@@ -105,6 +116,7 @@ const Boss = {
     EDL_215: {
         aliases: ["215", "unox", "eye"],
         points: {
+            attempt: 0,
             camp: 10,
             kill4: 5,
             kill5: 15,
@@ -116,6 +128,7 @@ const Boss = {
     AGGRAGOTH: {
         aliases: ["aggragoth", "aggy", "agg"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -125,6 +138,7 @@ const Boss = {
     HRUNGNIR: {
         aliases: ["hrungnir", "hrung", "hippo"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -134,6 +148,7 @@ const Boss = {
     MORDRIS: {
         aliases: ["mordris", "mordy", "mord", "mordi"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -143,6 +158,7 @@ const Boss = {
     EFNISIEN: {
         aliases: ["efnisien", "efni", "necromancer", "necro"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -153,6 +169,7 @@ const Boss = {
     PROTEUS_BASE: {
         aliases: ["proteusbase", "proteus_base", "protb", "base"],
         points: {
+            attempt: 0,
             camp: 5,
             kill4: 0,
             kill5: 0,
@@ -162,6 +179,7 @@ const Boss = {
     PROTEUS_PRIME: {
         aliases: ["proteusprime", "proteus_prime", "protp", "prime"],
         points: {
+            attempt: 0,
             camp: 5,
             kill4: 0,
             kill5: 0,
@@ -171,6 +189,7 @@ const Boss = {
     GELEBRON: {
         aliases: ["gelebron", "gele", "gel"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -180,6 +199,7 @@ const Boss = {
     BLOODTHORN: {
         aliases: ["bloodthorn", "bt", "blood", "thorn"],
         points: {
+            attempt: 30,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -189,6 +209,7 @@ const Boss = {
     DHIOTHU: {
         aliases: ["dhiothu", "dhio", "dino"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -199,6 +220,7 @@ const Boss = {
     RING_BOSS: {
         aliases: ["ringboss", "ring_boss", "rb", "rbs", "ring"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 10,
@@ -208,6 +230,7 @@ const Boss = {
     FACTIONS: {
         aliases: ["factions", "faction", "lich", "reaver"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 0,
@@ -217,6 +240,7 @@ const Boss = {
     BLOODTHORN_ROOT: {
         aliases: ["bloodthornroot", "bloodthorn_root", "btroot", "bt_root", "root"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 10,
@@ -228,6 +252,7 @@ const Boss = {
     LEGACY_150: {
         aliases: ["legacy150", "legacy_150", "witchfinder", "hopkins", "comrack", "akais", "hurricanes", "typhoons", "garyn", "devestator", "jalan", "paradai", "blizzardgore", "synak"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 5,
@@ -237,6 +262,7 @@ const Boss = {
     LEGACY_180: {
         aliases: ["legacy180", "legacy_180", "natan", "athatch", "garanak", "gara", "urchaid", "maelstrom", "whirlwinds", "whirlwind", "smolach", "annihilator", "skain", "osan", "blight", "tomb"],
         points: {
+            attempt: 0,
             camp: 0,
             kill4: 0,
             kill5: 10,
@@ -276,6 +302,7 @@ const PointType = {
     KILL: ["kill", "killl", "kil", "kkil", "ki", "k", "kll", "kl"],
     CAMP: ["camp", "campp", "cam", "ca", "c", "cmp", "cp"],
     CAMP_KILL: ["campkill", "ckill", "campk", "campkill", "killcamp", "kcamp", "camp/kill", "kill/camp"],
+    ATTEMPT: ["attempt", "atempt", "attemt"],
 };
 
 //points here are per hour camped or per level
@@ -291,7 +318,7 @@ const BonusType = {
 };
 
 function getPointTypes() {
-    return [PointType.CAMP, PointType.KILL, PointType.CAMP_KILL];
+    return [PointType.CAMP, PointType.KILL, PointType.CAMP_KILL, PointType.ATTEMPT];
 }
 
 function getBonusTypes() {

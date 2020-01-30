@@ -21,6 +21,7 @@ function countPoints(formatted) {
             let syntax = onSplit[0].trim();
 			if(lineContainsBoss(syntax)) {
 	            let parser = new BossPointParser(line);
+	            console.log(parser.pointType);
 	            if (parser.pointType === PointType.KILL) {
 	                let points = getKillPoints(parser.boss, parser.stars);
 	                for (let j = 0; j < parser.players.length; j++) {
@@ -39,7 +40,14 @@ function countPoints(formatted) {
 	                    let player = parser.players[j].trim();
 	                    addPoints(getPlayerFromAlias(player), points);
 	                }
-	            }
+	            } else if (parser.pointType === PointType.ATTEMPT) {
+					let points = parser.boss.points.attempt;
+					console.log(points);
+					for (let j = 0; j < parser.players.length; j++) {
+						let player = parser.players[j].trim();
+						addPoints(getPlayerFromAlias(player), points);
+					}
+				}
 			}
 			else if(lineContainsBonusType(syntax)) {
 				let bonusTypeAlias = getBonusTypeAlias(syntax);
