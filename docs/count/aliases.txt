@@ -13,7 +13,7 @@ calislahn tryst,calislahn tyrst,calislahn,calislhan tryst,calis
 cheiron,chevron,chiron,cherion,chieron
 cool strike,cook strike,coolstrike
 dark hunter, darkhunter
-deadroguez,deadrougez,deadrogues,deadgrouges,dead roguez,dead rougez,deathroguez
+deadroguez,deadrougez,deadrogues,deadgrouges,dead roguez,dead rougez,deathroguez,deadroquez
 death stroke,deathstroke
 dreaded,dread,dreadd
 erandel,erendel,erandal,erendal,erendol,erondel
@@ -29,7 +29,7 @@ icrityouquit,icrit,icrituquit
 ildor coles,ildorcoles,ildor,ildor cole,ildorcole
 istunyourun,istun,istunurun
 ivy,lvy,
-jasperodus,jasp,jasper,jasperdos,jasperodes,jadperodus
+jasperodus,jasp,jasper,jasperdos,jasperodes,jadperodus,jasperdous,jasperodous,jesperodus
 jezuz09,jezuz,jesus,jesus09,jezus09,jesuz09
 jknielsboss,jkniel,jnielsboss,jknelsboss
 jolle,jole,jollee,jolie
@@ -58,7 +58,7 @@ ori0n,orion,or10n
 palaemon,palamon,palemon
 papakaterishki,papakatershki,papakaterishki
 pinkys warrior,pinky,pinkys,pinkyswarrior,pinkywarrior,pinky warrior,pinky's warrior
-princes eliktra,princess eliktra,pinces eliktra,princess,princes, princes elektra,princess elektra
+princes eliktra,princess eliktra,pinces eliktra,princess,princes, princes elektra,princess elektra,prince eliktra
 pytho,pyth
 r0ogue,roogue
 rags,ragz,rag
@@ -66,17 +66,17 @@ rangertoonduhhh,rangertoon,rangertoonduhh,rangertoonduh
 raynard winters,raynard,raynrd winters,raynerd winters,raynard winter
 rengwen mcgrath,renwen mcgrath,rengwen mcrath,rengwenmcgrath,reng,rengwen
 rhobert mars,rhobertmars,rhobert,robert mars,robertmars
-robhimlerr,robhimler,robhimlerr,robimlerr,robhinlerr,robhinler
+robhimlerr,robhimler,robhimlerr,robimlerr,robhinlerr,robhinler,robihimlerr
 rogue reaper,roguereaper,ruoge reaper,rouge reaper,rougereaper
 s3xymage,sexymage,s3xym4ge,s3xy mage,sexy mage,s3xy
 scope,scop
-sir meliodas,meliodas,sirmeliodas,sir melodas,sir milodas
+sir meliodas,meliodas,sirmeliodas,sir melodas,sir milodas,sie meliodas,
 skydancer,skylancer
 slashemup,slashmeup,slashem,slshemup,slashem up
 slowking,slow king,slowkin
 slowpoke,slow poke,slowpok
-sneakashell,sneakshell,sneaka shell,sneak shell
-spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath,spritialdeath,spirtaldeath
+sneakashell,sneakshell,sneaka shell,sneak shell,sneakyashell
+spiritaldeath,spiritualdeath,spiretaldeath,spirital,spirit,spiritialdeath,spritaldeath,spritialdeath,spirtaldeath,spriritaldeal,spirtaldeath
 spring willow,springwillow,spring,spring willo
 steinberg,stinberg,stenberg,stein berg,
 stop it,stopit
@@ -93,3 +93,7 @@ valla rees,vallarees,valla nees,vala rees,valla ees,valla
 vikthor,vkthor,victhor
 zatheenah,zatheena,zathenah,zatheen
 zolo razor,solo razor,zolorazor,zolo razer
+p0ison,po1son,pois0n
+m1xtank,mixtank
+indygo,indy go
+calislahn tryst,calisahn tryst,calislahn tryst,calis1ahn tryst
