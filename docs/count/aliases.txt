@@ -22,7 +22,7 @@ giftpilz,giftplz,gftpilz,giftpils
 go away,goaway
 golden knife, goldenknife,golden,goldanknife,goldan knife
 greenguy,green guy
-hattori hanzo,hattorihanzo,hatteri hanzo,hattori banzo,hattori,hatt,hanzo
+hattori hanzo,hattorihanzo,hatteri hanzo,hattori banzo,hattori,hatt,hanzo,theworstrogueinronin
 healemup,healmeup,healem
 huggabl3 babe,huggabl3babe,huggable babe,huggabl3
 icrityouquit,icrit,icrituquit
