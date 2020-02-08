@@ -43,7 +43,7 @@ louisen,louise,lousen,loiusen
 luckyandfun,lucky,luckyfun,luckandfun,lucyandfun
 lutece,letuce,lutec
 m1xf1x,m1xfix,mixfix,mixf1x,m1x f1x
-mag1cal me,magical me,magicalme,mag1calme
+mag1calme,magical me,magicalme,mag1calme
 magican123,magician123,magican,magican12,magician12
 mariejohanna,marriejohanna,maryjohanna
 mayster,mayst
@@ -96,4 +96,5 @@ zolo razor,solo razor,zolorazor,zolo razer
 p0ison,po1son,pois0n
 m1xtank,mixtank
 indygo,indy go
-calislahn tryst,calisahn tryst,calislahn tryst,calis1ahn tryst
+calislahn tryst,calisahn tryst,calislahn tryst,calis1ahn tryst,calislahn,calis,calislhn
+rendal,rendel,randal,randel
