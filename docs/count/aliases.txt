@@ -64,7 +64,7 @@ pytho,pyth
 r0ogue,roogue
 rags,ragz,rag
 rangertoonduhhh,rangertoon,rangertoonduhh,rangertoonduh
-raynard winters,raynard,raynrd winters,raynerd winters,raynard winter
+raynard winters,raynard,raynrd winters,raynerd winters,raynard winter,ranyard winters
 rengwen mcgrath,renwen mcgrath,rengwen mcrath,rengwenmcgrath,reng,rengwen
 rhobert mars,rhobertmars,rhobert,robert mars,robertmars
 robhimlerr,robhimler,robhimlerr,robimlerr,robhinlerr,robhinler,robihimlerr
@@ -103,3 +103,7 @@ kiara evangelin, kiara, kiaraevangelin,kiara evangeln,kiara evanglin
 l3ge4nda6ry,l3gendary,lege4ndary
 p0ison,p01son,poison
 sir meliodas,sirmeliodas
+barbarian88,barabarian88,barbarian,barbarien88
+ducan idaho,duncan idaho,ducan,duncan
+projectgamesyt,projectgameyt,projectgame,projectgames
+sir tickles,sir tickels,sit tickles,tickles,tickle
