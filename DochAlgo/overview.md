@@ -59,4 +59,9 @@ Suppose the player was a rogue and hasn't received any Doch Gul. In this sitatio
 </td>
 </table>
 
-##Eligibility
+## Eligibility
+This is where it starts to get difficult. We must prevent inactive players who have acquired a large amount of points in the past from receiving Doch Gul along with players who rarely play on the account they have designated as their main DG account. Minimum amounts for combined lifetime, combined recent activity, main lifetime, and main activity can be used to disqualify these players.
+
+The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is when we are in a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
+
+Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire 2x the minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
