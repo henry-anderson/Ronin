@@ -8,7 +8,7 @@
 
 The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
 
-The simplicity of the formula comes down to an equal weight between recent activity and past contribution creating a balance between new players and old players. An old player who is still very active will take priority over a new player, but if the old player's activity is limited relative to the new player then they will not.
+The simplicity of the formula comes down to an equal weight between recent activity and past contribution creating a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
 
 Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. This is due to the fact that we have a surplus of warrior, mage, and druid confluxes. For DPS classes larger pieces are slightly favored as gloves take two class specific confluxes to make while a chest only takes five yet it is 5x stronger than the gloves.
 
