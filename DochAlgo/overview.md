@@ -3,5 +3,7 @@
 <b>x</b>: The combined lifetime DKP of the player across all accounts</br>
 <b>y</b>: The combined DKP accumulated over the last 90 days</br>
 <b>c</b>: The amount of confluxes already given to the player as either purenesses, or class specific confluxes</br>
-- The limiting factor is used as the conflux type
-- Class specific confluxes for rangers and rogues while purenesses are used for warriors, mages, and druids 
+
+  * The limiting factor is used as the conflux type
+
+  * Class specific confluxes for rangers and rogues while purenesses are used for warriors, mages, and druids 
