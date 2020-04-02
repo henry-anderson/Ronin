@@ -1,13 +1,15 @@
-## Formula
-<img src="https://render.githubusercontent.com/render/math?math=r%20%3D%20aL_c%20%2F%20(c%20%2B%201)" width="125">
-<b>r</b>:The players rating<br />
+## Rating
+<img src="https://render.githubusercontent.com/render/math?math=r%20%3D%20aL_c%20%2F%20c" width="100">
+<b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a</b>: The combined DKP accumulated over the last 90 days<br />
 <b>c</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
 
-The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of purenesses currently invested allows for comparison across players with other pieces and lets all players in a certain category
+The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
 
-Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. 
+The simplicity of the formula comes down to an equal weight between recent activity and past contribution creating a balance between new players and old players. An old player who is still very active will take priority over a new player, but if the old player's activity is limited relative to the new player then they will not.
+
+Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. This is due to the fact that we have a surplus of warrior, mage, and druid confluxes. For DPS classes larger pieces are slightly favored as gloves take two class specific confluxes to make while a chest only takes five yet it is 5x stronger than the gloves.
 
 As an example, it would require 7 class specific confluxes to give a ranger who already has 
 <img src="https://render.githubusercontent.com/render/math?math=c%20=%207"> ranger who already has gloves
@@ -54,4 +56,6 @@ Suppose the player was a rogue and hasn't received any Doch Gul. In this sitatio
  </tr>
 
 </td>
-</table
+</table>
+
+##Eligibility
