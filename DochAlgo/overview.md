@@ -1,8 +1,8 @@
 ## Formula
-<img src="https://render.githubusercontent.com/render/math?math=r%20%3D%20xy%20%2F%20(c%20%2B%201)" width="125">
-<b>r</b>: The players rating<br />
-<b>x</b>: The combined lifetime DKP of the player across all accounts<br />
-<b>y</b>: The combined DKP accumulated over the last 90 days<br />
+<img src="https://render.githubusercontent.com/render/math?math=r%20%3D%20aL_c%20%2F%20(c%20%2B%201)" width="125">
+<b>r</b>:The players rating<br />
+<b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
+<b>a</b>: The combined DKP accumulated over the last 90 days<br />
 <b>c</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
 
 The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of purenesses currently invested allows for comparison across players with other pieces and lets all players in a certain category
