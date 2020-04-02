@@ -3,7 +3,7 @@
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a</b>: The combined DKP accumulated over the last 90 days<br />
-<b>c</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
+<b>c</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.<br />
 
 The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
 
