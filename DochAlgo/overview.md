@@ -12,7 +12,6 @@ The simplicity of the formula comes down to an equal weight between recent activ
 
 Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. This is due to the fact that we have a surplus of warrior, mage, and druid confluxes. For DPS classes larger pieces are slightly favored as gloves take two class specific confluxes to make while a chest only takes five yet it is 5x stronger than the gloves.
 
-As an example, it would require 7 class specific confluxes to give a ranger who already has 
 <img src="https://render.githubusercontent.com/render/math?math=c%20=%207"> ranger who already has gloves
 <table>
  <tr>
