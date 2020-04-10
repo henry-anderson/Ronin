@@ -6,6 +6,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 2,
             kill5: 5,
             kill6: 10,
@@ -16,6 +17,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 2,
             kill5: 5,
             kill6: 10,
@@ -26,6 +28,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 2,
             kill5: 5,
             kill6: 10,
@@ -36,6 +39,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 5,
+            park: 0,
             kill4: 2,
             kill5: 5,
             kill6: 10,
@@ -46,6 +50,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 5,
+            park: 0,
             kill4: 2,
             kill5: 5,
             kill6: 10,
@@ -58,6 +63,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 5,
             kill5: 10,
             kill6: 15,
@@ -68,6 +74,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -78,6 +85,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -88,6 +96,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -98,6 +107,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 5,
             kill5: 10,
             kill6: 15,
@@ -108,6 +118,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 10,
+            park: 0,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -118,6 +129,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 10,
+            park: 0,
             kill4: 5,
             kill5: 15,
             kill6: 20,
@@ -130,6 +142,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 0,
             kill5: 0,
             kill6: 10,
@@ -138,8 +151,9 @@ const Boss = {
     HRUNGNIR: {
         aliases: ["hrungnir", "hrung", "hippo"],
         points: {
-            attempt: 0,
+            attempt: 10,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 20,
@@ -148,8 +162,9 @@ const Boss = {
     MORDRIS: {
         aliases: ["mordris", "mordy", "mord", "mordi"],
         points: {
-            attempt: 0,
+            attempt: 17,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 35,
@@ -158,8 +173,9 @@ const Boss = {
     EFNISIEN: {
         aliases: ["efnisien", "efni", "necromancer", "necro"],
         points: {
-            attempt: 0,
+            attempt: 20,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 40,
@@ -169,8 +185,9 @@ const Boss = {
     PROTEUS_BASE: {
         aliases: ["proteusbase", "proteus_base", "protb", "base"],
         points: {
-            attempt: 0,
+            attempt: 30,
             camp: 5,
+            park: 0,
             kill4: 0,
             kill5: 0,
             kill6: 60,
@@ -179,8 +196,9 @@ const Boss = {
     PROTEUS_PRIME: {
         aliases: ["proteusprime", "proteus_prime", "protp", "prime"],
         points: {
-            attempt: 0,
+            attempt: 40,
             camp: 5,
+            park: 0,
             kill4: 0,
             kill5: 0,
             kill6: 80,
@@ -189,8 +207,9 @@ const Boss = {
     GELEBRON: {
         aliases: ["gelebron", "gele", "gel"],
         points: {
-            attempt: 0,
+            attempt: 50,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 100,
@@ -199,8 +218,9 @@ const Boss = {
     BLOODTHORN: {
         aliases: ["bloodthorn", "bt", "blood", "thorn"],
         points: {
-            attempt: 30,
+            attempt: 75,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 150,
@@ -209,8 +229,9 @@ const Boss = {
     DHIOTHU: {
         aliases: ["dhiothu", "dhio", "dino"],
         points: {
-            attempt: 0,
+            attempt: 100,
             camp: 0,
+            park: 15,
             kill4: 0,
             kill5: 0,
             kill6: 200,
@@ -222,6 +243,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 0,
             kill5: 10,
             kill6: 40,
@@ -232,6 +254,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 0,
             kill5: 0,
             kill6: 30,
@@ -242,6 +265,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park: 0,
             kill4: 0,
             kill5: 10,
             kill6: 0,
@@ -254,6 +278,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park:0,
             kill4: 0,
             kill5: 5,
             kill6: 10,
@@ -264,6 +289,7 @@ const Boss = {
         points: {
             attempt: 0,
             camp: 0,
+            park:0,
             kill4: 0,
             kill5: 10,
             kill6: 15,
@@ -302,6 +328,7 @@ const PointType = {
     KILL: ["kill", "killl", "kil", "kkil", "ki", "k", "kll", "kl"],
     CAMP: ["camp", "campp", "cam", "ca", "c", "cmp", "cp"],
     CAMP_KILL: ["campkill", "ckill", "campk", "campkill", "killcamp", "kcamp", "camp/kill", "kill/camp"],
+    PARK: ["park", "parked", "parke", "arked"],
     ATTEMPT: ["attempt", "atempt", "attemt"],
 };
 
@@ -313,12 +340,12 @@ const BonusType = {
     },
 	CAMP: {
         aliases: ["camped"],
-        points: 7,
+        points: 10,
     },
 };
 
 function getPointTypes() {
-    return [PointType.CAMP, PointType.KILL, PointType.CAMP_KILL, PointType.ATTEMPT];
+    return [PointType.CAMP, PointType.KILL, PointType.CAMP_KILL, PointType.ATTEMPT, PointType.PARK];
 }
 
 function getBonusTypes() {
