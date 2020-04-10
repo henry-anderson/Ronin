@@ -5,7 +5,6 @@ public class Player {
 	private int id;
 	private int points;
 	private int lifetimePoints;
-
 	
 	public Player(String name, int id, int points, int lifetimePoints) {
 		this.name = name;

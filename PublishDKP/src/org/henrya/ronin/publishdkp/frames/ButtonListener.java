@@ -3,7 +3,10 @@ package org.henrya.ronin.publishdkp.frames;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 import org.henrya.configj.ConfigFile;
 import org.henrya.httpicnic.http.HttpConnectionException;
@@ -54,33 +57,77 @@ public class ButtonListener implements ActionListener {
 					String password = config.getString("password");
 					pane.println("Logging into " + url + "");					
 					WebDKPSession session = new WebDKPSession(url, username, password);
-					
 					try {
 						if(!session.login()) {
 							pane.println("Invalid username or password!");
 						}
 						else {
+							List<String> returns = new ArrayList<String>();
 							pane.println("Loading players... This can take a few minutes.");
 							session.loadPlayers();
-							for(String line : mainFrame.getArea().getText().split("\n")) {
+							for(String actualLine : mainFrame.getArea().getText().split("\n")) {
 								try {
-									line = line.toLowerCase();
-									String[] separated = line.split(", ");
-									String name = separated[0];
-									int points = Integer.parseInt(separated[1]);
-									if(session.playerExists(name)) {
-										Player player = session.getPlayer(name);
-										pane.println("Awarding \"" + name + "\" with " + points + " points. New total is: " + (player.getPoints() + points));
-										session.addPoints(player, points, date + " Count");
+									String line = actualLine.toLowerCase();
+									if(line.contains(",")) {
+										String[] separated = line.split(", ");
+										String name = separated[0];
+										int points = Integer.parseInt(separated[1]);
+										if(session.playerExists(name)) {
+											Player player = session.getPlayer(name);
+											pane.println("Awarding \"" + name + "\" with " + points + " points. New total is: " + (player.getPoints() + points));
+											session.addPoints(player, points, date + " Count");
+										}
+										else {
+											pane.println("Creating \"" + name + "\" and awarding " + points + " points...");
+											session.createPlayer(name, points);
+										}
+									}
+									else if(line.contains(" for ")) {
+										String[] forSplit = line.split(" for ");
+										String itemName = forSplit[1].replace(".", "").replace("’", "").replace("'", "").replace("\"", "\"").trim();
+
+										String firstPart = forSplit[0].trim();
+										String[] firstPartSplit = firstPart.split(" ");
+
+										int cost = 0;
+										String name;
+										if(firstPartSplit[firstPartSplit.length - 2].equals("+") || firstPartSplit[firstPartSplit.length - 2].equals("-")) {
+											cost = Integer.parseInt(firstPartSplit[firstPartSplit.length - 2] + firstPartSplit[firstPartSplit.length - 1]);
+											name = String.join(" ", Arrays.copyOf(firstPartSplit, firstPartSplit.length - 2));
+										}
+										else {
+											cost = Integer.parseInt(firstPartSplit[firstPartSplit.length - 1]);
+											name = String.join(" ", Arrays.copyOf(firstPartSplit, firstPartSplit.length - 1));
+										}
+										if(cost >= 0) {
+											returns.add(line);
+										}
+										else {
+											if(session.playerExists(name)) {
+												Player player = session.getPlayer(name);
+												pane.println("Awarding loot: \"" + name + "\" " + cost + " \"" + itemName + "\"");
+												session.awardItem(player, Math.abs(cost), itemName);
+											}
+											else {
+												pane.println("Player \"" + name + "\" does not exist. Award for \" " + cost + " \"" + itemName + "\" was not created");
+											}
+										}
 									}
 									else {
-										pane.println("Creating \"" + name + "\" and awarding " + points + " points...");
-										session.createPlayer(name, points);
+										pane.println("Syntax error on line: \"" + line + "\"");
 									}
 								} catch(Exception e) {
 									e.printStackTrace();
-									frame.getPane().println(e.getClass().getName() + ": " + e.getMessage() + " on line: " + line);
+									frame.getPane().println(e.getClass().getName() + ": " + e.getMessage() + " on line: " + actualLine);
 								}
+							}
+							if(!returns.isEmpty()) {
+								pane.println("Returns must be done by hand - Publish the following on WebDKP");
+								pane.println("");
+								for(String line : returns) {
+									pane.println(line);
+								}
+								pane.println("");
 							}
 							pane.println("Finished!");
 						} 

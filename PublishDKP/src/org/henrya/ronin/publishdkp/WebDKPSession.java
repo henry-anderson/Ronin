@@ -118,6 +118,18 @@ public class WebDKPSession {
 		return player;
 	}
 	
+	public void awardItem(Player player, int cost, String item) throws HttpConnectionException {
+		String url = this.tableURL + "/Admin/CreateAward/";
+		HttpRequest request = new HttpPost(url);
+		this.client.addParameter("ajax", "CreateItemAward");
+		this.client.addParameter("playerid", String.valueOf(player.getID()));
+		this.client.addParameter("item", item);
+		this.client.addParameter("cost", String.valueOf(Math.abs(cost)));
+		this.client.addParameter("location", "WebDKP");
+		this.client.addParameter("awardedby", "DKP Bot");
+		this.client.send(request);		
+	}
+	
 	/**
 	 * Returns whether the player exists
 	 * @param name The name of the player
