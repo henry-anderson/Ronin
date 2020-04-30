@@ -14,13 +14,10 @@ import org.henrya.httpicnic.http.HttpConnectionException;
  * @author Henry Anderson
  *
  */
-public class ClanReports {
-	/* A month in milliseconds */
-	public static final long MONTH = 30 * 24 * 60 * 60 * 1000L;
-	
+public class ClanReports {	
 	public static void main(String[] main) {
 		try {
-			WebDKPSession session = new WebDKPSession("https://www.webdkp.com/dkp/Reborn/Ronin");
+			WebDKPPublicSession session = new WebDKPPublicSession("https://webdkp.com/dkp/Agamaggan/uuirvjj");
 			System.out.println("Loading players...");
 			session.loadPlayers();
 			System.out.println("Loading awards...");

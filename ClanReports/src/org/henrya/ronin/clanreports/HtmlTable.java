@@ -4,10 +4,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class HtmlTable {
-	private WebDKPSession session;
+	private WebDKPPublicSession session;
 	private String html = "";
 	
-	public HtmlTable(WebDKPSession session) {
+	public HtmlTable(WebDKPPublicSession session) {
 		this.session = session;
 		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
 	    Date date = new Date(System.currentTimeMillis());
@@ -31,8 +31,8 @@ public class HtmlTable {
 				+ "<br>\n";
 		
 		int totalMonthlyPoints = 0;
-		for(Player player : this.session.getPlayers()) {
-			totalMonthlyPoints += player.getPointsThisMonth();
+		for(WebDKPPlayer player : this.session.getPlayers()) {
+			totalMonthlyPoints += player.getPoints30Days();
 		}
 		
 		this.html += "Total points this month: <b>" + totalMonthlyPoints + "</b>\n"
@@ -53,13 +53,13 @@ public class HtmlTable {
 	
 	private void createTable() {
 		int index = 1;
-		for(Player player : this.session.getPlayers()) {
+		for(WebDKPPlayer player : this.session.getPlayers()) {
 			this.html += "<tr>\n"
 					+ "<td>" + index + "</td>\n"
 					+ "<td>" + player.getName() + "</td>\n"
 					+ "<td>" + player.getPoints() + "</td>\n"
 					+ "<td>" + player.getLifetimePoints() + "</td>\n"
-					+ "<td>" + player.getPointsThisMonth() + "</td>\n"
+					+ "<td>" + player.getPoints30Days() + "</td>\n"
 					+ player.getActivity() + "\n"
 					+ "</tr>\n";
 			index++;
