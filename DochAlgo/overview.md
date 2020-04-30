@@ -20,7 +20,7 @@ Players are separated into four categories based on their class. When the clan i
    <td>All rangers compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
    <td>All rogues compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
    <td>Warriors, Mages, and Druids who do not currently have gloves belong to this category.</td>
-   <td>Warriors, Mages, and Druids who already have their gloves and are currently working to obtain any other piece of Doch Gul</td>
+   <td>Warriors, Mages, and Druids who already have their gloves and are currently working to obtain any other piece of Doch Gul.</td>
  </tr>
 </table> 
 
