@@ -1,3 +1,29 @@
+# Doch Gul
+This document defines a procedural and algorithmic approach in deciding which candidates receive pieces of Doch Gul (DG) armor based on an unbias method in which clan leaders control very little of the decision making process. 
+
+## Categories
+Players are separated into four categories based on their class. When the clan is prepared to hand out DG, the Generals vote on one of these categories to decide which piece they would like to create without actually picking the player themselves. This allows strategy and the needs of the clan to continue to be incorporated as a factor in this process. Generally the limiting factor to create DG for rogues and rangers is class specific confluxes while for warriors, druids, and mages it is purenesses. The limiting factor of each category is used to determine each player's rating.
+<table>
+ <tr>
+   <td><b>Ranger</b></td>
+   <td><b>Rogue</b></td>
+   <td><b>Other (Gloves)</b></td>
+   <td><b>Other (Chest+)</b></td>
+ </tr>
+ <tr>
+  <td><i>Class Conflux</i></td>
+  <td><i>Class Conflux</i></td>
+  <td><i>Pureness</i></td>
+  <td><i>Pureness</i></td>
+ </tr> 
+ <tr>
+   <td>All rangers compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
+   <td>All rogues compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
+   <td>Warriors, Mages, and Druids who do not currently have gloves belong to this category.</td>
+   <td>Warriors, Mages, and Druids who already have their gloves and are currently working to obtain any other piece of Doch Gul</td>
+ </tr>
+</table> 
+
 ## Rating
 <img src="https://render.githubusercontent.com/render/math?math=r%20%3D%20aL_c%20%2F%20c" width="100">
 <b>r</b>: The players rating<br />
@@ -60,6 +86,9 @@ Suppose the player was a rogue and hasn't received any Doch Gul. In this sitatio
 ## Eligibility
 This is where it starts to get difficult. We must prevent inactive players who have acquired a large amount of points in the past from receiving Doch Gul along with players who rarely play on the account they have designated as their main DG account. Minimum amounts for combined lifetime, combined recent activity, main lifetime, and main activity can be used to disqualify these players.
 
-The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is when we are in a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
+The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is during a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
 
-Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire 2x the minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
+Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
+
+### Combined Minimums
+
