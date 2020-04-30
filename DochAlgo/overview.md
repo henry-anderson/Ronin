@@ -90,5 +90,9 @@ The problem that arises here is that the clan goes through cycles. It is much ea
 
 Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
 
-### Combined Minimums
-<img src="https://i.imgur.com/2IkrlgU.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration.
+### Minimums
+<img src="https://i.imgur.com/2IkrlgU.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
+
+It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
+
+It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
