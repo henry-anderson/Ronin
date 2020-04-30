@@ -30,6 +30,20 @@ Unpleased, 505
 
 This will add the specified amount of points to the player on WebDKP. If the player doesn't exist in the WebDKP table they will be created.
 
+Loot awards can also be added to WebDKP automatically using the following syntax.
+<pre>
+[player] -[points] for [item]
+</pre>
+
+Only negative values may be used.
+
+<pre>
+Mag1calme -50 for Dark Skull of Freeze
+Krozone - 3333 for Royal Necral Ring of Blood
+ExBlood - 2815 for Darkscale Helm of Victory
+</pre>
+
+
 ## Libraries
 
 * [HTTPicnic](https://github.com/henry-anderson/HTTPicnic)

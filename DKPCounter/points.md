@@ -4,7 +4,7 @@
 * <a href="points.md">Points Awarded</a>
 # Points
 
-A certain amount of DKP is awarded for killing bosses, camping, or leveling. Camping raids award 7 points per hour camped. Eligible raids include Hrungnir, Efnisien, Mordris, and Gelebron. Leveling rewards 5 points every 5 levels above 155. The table below shows the points each boss is worth. For certain bosses additional "camp" points are awarded if the player is there before the boss spawns.
+A certain amount of DKP is awarded for killing bosses, camping, or leveling. Camping raids award 10 points per hour camped. Eligible raids include Hrungnir, Efnisien, Mordris, and Gelebron. Leveling rewards 5 points every 5 levels above 155. The table below shows the points each boss is worth. For certain bosses additional "camp" points are awarded if the player is there before the boss spawns.
   
 ## Dragonlord
 <table>
@@ -119,51 +119,61 @@ A certain amount of DKP is awarded for killing bosses, camping, or leveling. Cam
   <tr>
     <th>Boss</th>
     <th>Camp</th>
+    <th>Park</th>
     <th>Kill 6*</th>
   </tr>
   <tr>
     <td>Aggragoth</td>
+    <td></td>
     <td></td>
     <td>10</td>
   </tr>
   <tr>
     <td>Hrungnir</td>
     <td></td>
+    <td>15</td>
     <td>20</td>
   </tr>
   <tr>
     <td>Mordris</td>
     <td></td>
+    <td>15</td>
     <td>30</td>
   </tr>
   <tr>
     <td>Efnisien</td>
     <td></td>
+    <td>15</td>    
     <td>40</td>
   </tr>
   <tr>
     <td>Proteus Base</td>
     <td>5</td>
+    <td></td>
     <td>60</td>
   </tr>
   <tr>
     <td>Proteus Prime</td>
     <td>5</td>
+    <td></td>     
     <td>80</td>
   </tr>
   <tr>
     <td>Gelebron</td>
     <td></td>
+    <td>15</td> 
     <td>100</td>
   </tr>
   <tr>
     <td>Bloodthorn</td>
     <td></td>
+    <td>15</td> 
     <td>150</td>
   </tr>
   <tr>
     <td>Dhiothu</td>
     <td></td>
+    <td>15</td> 
     <td>200</td>
   </tr>
 </table>
