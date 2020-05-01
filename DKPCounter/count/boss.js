@@ -4,7 +4,7 @@ const Boss = {
     DL_155: {
         aliases: ["155", "spider", "spidey", "ulrob"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 2,
@@ -15,7 +15,7 @@ const Boss = {
     DL_160: {
         aliases: ["160", "priest"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 2,
@@ -26,7 +26,7 @@ const Boss = {
     DL_165: {
         aliases: ["165", "king"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 2,
@@ -37,7 +37,7 @@ const Boss = {
     DL_170: {
         aliases: ["170", "sreng", "bolg"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 5,
             park: 0,
             kill4: 2,
@@ -48,7 +48,7 @@ const Boss = {
     DL_180: {
         aliases: ["180", "snorri", "snor", "snorr", "troll"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 5,
             park: 0,
             kill4: 2,
@@ -61,7 +61,7 @@ const Boss = {
     EDL_185: {
         aliases: ["185", "dog", "doggy", "dogg", "ifryn"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 5,
@@ -72,7 +72,7 @@ const Boss = {
     EDL_190: {
         aliases: ["190", "skath", "magister"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 5,
@@ -83,7 +83,7 @@ const Boss = {
     EDL_195: {
         aliases: ["195", "gron", "general"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 5,
@@ -94,7 +94,7 @@ const Boss = {
     EDL_200: {
         aliases: ["200", "krother", "imp"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 5,
@@ -105,7 +105,7 @@ const Boss = {
     EDL_205: {
         aliases: ["205", "cragskor", "dragon"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 5,
@@ -116,7 +116,7 @@ const Boss = {
     EDL_210: {
         aliases: ["210", "revenant", "anguish"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 10,
             park: 0,
             kill4: 5,
@@ -127,7 +127,7 @@ const Boss = {
     EDL_215: {
         aliases: ["215", "unox", "eye"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 10,
             park: 0,
             kill4: 5,
@@ -140,7 +140,7 @@ const Boss = {
     AGGRAGOTH: {
         aliases: ["aggragoth", "aggy", "agg"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 0,
@@ -151,7 +151,7 @@ const Boss = {
     HRUNGNIR: {
         aliases: ["hrungnir", "hrung", "hippo"],
         points: {
-            attempt: 10,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -162,7 +162,7 @@ const Boss = {
     MORDRIS: {
         aliases: ["mordris", "mordy", "mord", "mordi"],
         points: {
-            attempt: 17,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -173,7 +173,7 @@ const Boss = {
     EFNISIEN: {
         aliases: ["efnisien", "efni", "necromancer", "necro"],
         points: {
-            attempt: 20,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -185,7 +185,7 @@ const Boss = {
     PROTEUS_BASE: {
         aliases: ["proteusbase", "proteus_base", "protb", "base"],
         points: {
-            attempt: 30,
+            attempt: true,
             camp: 5,
             park: 0,
             kill4: 0,
@@ -196,7 +196,7 @@ const Boss = {
     PROTEUS_PRIME: {
         aliases: ["proteusprime", "proteus_prime", "protp", "prime"],
         points: {
-            attempt: 40,
+            attempt: true,
             camp: 5,
             park: 0,
             kill4: 0,
@@ -207,7 +207,7 @@ const Boss = {
     GELEBRON: {
         aliases: ["gelebron", "gele", "gel"],
         points: {
-            attempt: 50,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -218,7 +218,7 @@ const Boss = {
     BLOODTHORN: {
         aliases: ["bloodthorn", "bt", "blood", "thorn"],
         points: {
-            attempt: 75,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -229,7 +229,7 @@ const Boss = {
     DHIOTHU: {
         aliases: ["dhiothu", "dhio", "dino"],
         points: {
-            attempt: 100,
+            attempt: true,
             camp: 0,
             park: 15,
             kill4: 0,
@@ -241,7 +241,7 @@ const Boss = {
     RING_BOSS: {
         aliases: ["ringboss", "ring_boss", "rb", "rbs", "ring"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 0,
@@ -252,7 +252,7 @@ const Boss = {
     FACTIONS: {
         aliases: ["factions", "faction", "lich", "reaver"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 0,
@@ -263,7 +263,7 @@ const Boss = {
     BLOODTHORN_ROOT: {
         aliases: ["bloodthornroot", "bloodthorn_root", "btroot", "bt_root", "root"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park: 0,
             kill4: 0,
@@ -276,7 +276,7 @@ const Boss = {
     LEGACY_150: {
         aliases: ["legacy150", "legacy_150", "witchfinder", "hopkins", "comrack", "akais", "hurricanes", "typhoons", "garyn", "devestator", "jalan", "paradai", "blizzardgore", "synak"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park:0,
             kill4: 0,
@@ -287,7 +287,7 @@ const Boss = {
     LEGACY_180: {
         aliases: ["legacy180", "legacy_180", "natan", "athatch", "garanak", "gara", "urchaid", "maelstrom", "whirlwinds", "whirlwind", "smolach", "annihilator", "skain", "osan", "blight", "tomb"],
         points: {
-            attempt: 0,
+            attempt: false,
             camp: 0,
             park:0,
             kill4: 0,

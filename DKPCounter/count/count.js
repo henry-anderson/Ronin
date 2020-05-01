@@ -1,6 +1,7 @@
 pointsMap = new Map();
 
 function addPoints(player, points) {
+	points = Math.round(points);
     if(pointsMap.get(player) != undefined) {
         let currentPoints = pointsMap.get(player);
         let total = currentPoints + points;
@@ -12,7 +13,11 @@ function addPoints(player, points) {
     }
 }
 
-function countPoints(formatted, allowAttempts) {
+function countPoints(formatted) {
+	this.countPoints(formatted, false, 0);
+}
+
+function countPoints(formatted, allowAttempts, percent) {
     let split = formatted.split("\n");
     for(let i = 0; i < split.length; i++) {
         let line = split[i];
@@ -45,8 +50,8 @@ function countPoints(formatted, allowAttempts) {
 						let player = parser.players[j].trim();
 						addPoints(getPlayerFromAlias(player), points);
 					}
-	            } else if (parser.pointType === PointType.ATTEMPT && allowAttempts) {
-					let points = parser.boss.points.attempt;
+	            } else if (parser.pointType === PointType.ATTEMPT && allowAttempts && parser.boss.points.attempt == true) {
+					let points = parser.boss.points.kill6* (percent / 100);
 					console.log(points);
 					for (let j = 0; j < parser.players.length; j++) {
 						let player = parser.players[j].trim();
