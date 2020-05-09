@@ -98,7 +98,7 @@ It is significantly easier to acquire points during those peaks than it is durin
 It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves at that point in time. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
 
 ## Combined Lifetime Minimum
-<img src="http://www.sciweavers.org/tex2img.php?eq=L_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dxd_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dxd_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20&bc=White&fc=Black&im=jpg&fs=18&ff=modern&edit=0" align="center" border="0" alt="L_{cmin}=\begin{cases}xd_{90}, & \text{if }xd_{90} > 2500 \\2500, & \text{otherwise} \end{cases} " width="344" height="79" />
+<img src="http://www.sciweavers.org/tex2img.php?eq=L_{cmin}%3D\begin{cases}xd_{90},%20%26%20\text{if%20}xd_{90}%20%3E%202500%20\\2500,%20%26%20\text{otherwise}%20\end{cases}%20&bc=White&fc=Black&im=jpg&fs=18&ff=modern&edit=0" align="center" border="0" alt="L_{cmin}=\begin{cases}xd_{90}, & \text{if }xd_{90} > 2500 \\2500, & \text{otherwise} \end{cases} " width="344" height="79" />
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x</b>: A percent of the DKP pool (to be decided)<br />
