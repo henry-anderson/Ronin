@@ -25,11 +25,11 @@ Players are separated into four categories based on their class. When the clan i
 </table> 
 
 ## Rating
-<img src="https://render.githubusercontent.com/render/math?math=r=%20\frac{aL_c}{c}" height="40">
+<img src="https://render.githubusercontent.com/render/math?math=r=%20\frac{a_cL_c}{p}" height="40">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
-<b>a</b>: The combined DKP accumulated over the last 90 days<br />
-<b>c</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
+<b>a<sub>c</sub></b>: The combined DKP accumulated over the last 90 days<br />
+<b>p</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
 <p />
 
 The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
@@ -45,11 +45,11 @@ Whether the amount of purenesses or class specific confluxes is used depends on 
   <td>Pureness</td>
   <td rowspan="6">
 
-As an example, <img src="https://render.githubusercontent.com/render/math?math=c%20=%207"> for a ranger who already has gloves because they would have used 7 total class specific confluxes to create their chest.
+As an example, <img src="https://render.githubusercontent.com/render/math?math=p%20=%207"> for a ranger who already has gloves because they would have used 7 total class specific confluxes to create their chest.
 
-If that player was a druid, <img src="https://render.githubusercontent.com/render/math?math=c%20=%206">, because pures are used instead as that is the limiting factor for warriors, mages, and druids and it would take 6 purenesses to create the player's chest.
+If that player was a druid, <img src="https://render.githubusercontent.com/render/math?math=p%20=%206">, because pures are used instead as that is the limiting factor for warriors, mages, and druids and it would take 6 purenesses to create the player's chest.
 
-Suppose the player was a rogue and hasn't received any Doch Gul. In this sitation <img src="https://render.githubusercontent.com/render/math?math=c%20=%202"> as it would take two class specific confluxes to create their gloves.
+Suppose the player was a rogue and hasn't received any Doch Gul. In this sitation <img src="https://render.githubusercontent.com/render/math?math=p%20=%202"> as it would take two class specific confluxes to create their gloves.
 
 
 </td>
@@ -97,8 +97,14 @@ It is significantly easier to acquire points during those peaks than it is durin
 
 It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves at that point in time. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
 
+## Combined Recent Activity
+<img src="https://render.githubusercontent.com/render/math?math=a_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dxd_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dxd_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20" height="55">
+<b>A<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
+<b>d<sub>90</sub></b>: The 90 day DKP pool<br />
+<b>x</b>: A percent of the DKP pool (to be decided)<br />
+
 ## Combined Lifetime Minimum
-<img src="https://render.githubusercontent.com/render/math?math=L_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dxd_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dxd_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20" height="55">
+<img src="https://render.githubusercontent.com/render/math?math=a_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dxd_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dxd_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20" height="55">
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x</b>: A percent of the DKP pool (to be decided)<br />
