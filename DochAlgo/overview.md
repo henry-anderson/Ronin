@@ -95,4 +95,11 @@ Simply using minimum activity is not enough, another necessary requirement is st
 
 It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
 
-It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
+It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves at that point in time. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
+
+## Combined Lifetime Minimum
+<img src="https://render.githubusercontent.com/render/math?math=L_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dxd_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dxd_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20">
+<b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
+<b>d<sub>90</sub></b>: The 90 day DKP pool<br />
+<b>x</b>: A percent of the DKP pool (to be decided)<br />
+<p />
