@@ -104,9 +104,13 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <b>x<sub>1</sub></b>: A percent of the DKP pool (to be decided)<br />
 
 ## Combined Lifetime Minimum
+<img src="https://render.githubusercontent.com/render/math?math=L_c%20\geq%20L_{cmin}\text{%20where,%20}">
 <img src="https://render.githubusercontent.com/render/math?math=L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20" height="65">
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>x<sub>2</sib></b>: A percent of 90 day activity(to be decided)<br />
 <p />
+
+## Declining Activity
+
 
