@@ -100,6 +100,7 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 ## Combined Recent Activity
 <img src="https://render.githubusercontent.com/render/math?math=\large%20a_c%20\geq%20L_{cmin}\text{%20where,%20}">
 <img src="https://render.githubusercontent.com/render/math?math=\large%20a_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dx_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dx_1%20d_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20">
+<b>a<sub>c</sub></b>: The players combined 90 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x<sub>1</sub></b>: A percent of the DKP pool (to be decided)<br />
@@ -107,6 +108,7 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 ## Combined Lifetime Minimum
 <img src="https://render.githubusercontent.com/render/math?math=\large%20L_c%20\geq%20L_{cmin}\text{%20where,%20}">
 <img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20">
+<b>L<sub>c</sub></b>: The minimum combined lifetime DKP<br />
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>x<sub>2</sib></b>: A percent of 90 day activity(to be decided)<br />
