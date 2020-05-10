@@ -142,7 +142,7 @@ The player is required to have acquired at least 40% of the combined activity mi
  </tr>
 </table>
 
-<b>L<sub>c</sub></b>: The minimum combined lifetime DKP<br />
+<b>L<sub>c</sub></b>: The player's combined lifetime DKP<br />
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>x<sub>2</sub></b>: A percent of the 90 day activity minimum used for players working on their gloves (to be decided)<br />
