@@ -99,8 +99,8 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 
 ## Combined Recent Activity
 <img src="https://render.githubusercontent.com/render/math?math=\large%20a_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dx_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dx_1%20d_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20">
-Player passes when a<sub>c90</sub> > a<sub>cmin</sub> where,<p />
-<b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
+Player passes when a<sub>c90</sub> > a<sub>cmin</sub>
+<br /><b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x<sub>1</sub></b>: A percent of the DKP pool (to be decided)<br />
