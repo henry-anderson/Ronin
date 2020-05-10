@@ -115,5 +115,8 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <p />
 
 ## Declining Activity
-<img src="https://render.githubusercontent.com/render/math?math=$\large\text{Player passes when,}">
-<img src="">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
+<i>Player passes when this expression is true</i><br />
+<b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
+<b>a<sub>c90</sub></b>: The players combined 45 day activity<br />
+<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
