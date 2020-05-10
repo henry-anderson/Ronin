@@ -150,7 +150,7 @@ The player must have acquired at least 40% of the combined activity minimum on t
 <p />
 
 ### Declining Activity
-<img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201" height="23">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%5Cgeq%201" height="23">
 <i>Player passes when this expression is true</i><br />
 <b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
 <b>a<sub>c45</sub></b>: The player's combined 45 day activity<br />
