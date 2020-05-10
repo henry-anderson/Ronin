@@ -115,6 +115,10 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
 <b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
+<br />
+This sets the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums here are added so that the requirements don't get too high in the case of server dominance, or too low. These are set from 2500 to 5500 for gloves and 4500 to 8000 for any piece chest and above.
+
+x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
 
  ## Main Account's Recent Activity
  <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}" height="22">
@@ -150,4 +154,4 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <b>a<sub>c90</sub></b>: The player's combined 45 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <br />
-This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
+This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum. 
