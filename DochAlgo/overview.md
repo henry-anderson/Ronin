@@ -104,7 +104,7 @@ Simply using minimum activity is not enough, another necessary requirement is st
   <td colspan="4"><b>Overview of the Absolute Minimum and Maximum Values</b></td>
  </tr>
  <tr align="center">
-  <td><b>Requirement</b></td><b>
+  <td><b>Requirement</b></td>
   <td><b>Minimum (Gloves)</b></td>
   <td><b>Maximum (Gloves)</b></td>
   <td><b>Minimum (Chest+)</b></td>
