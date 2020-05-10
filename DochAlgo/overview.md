@@ -98,6 +98,41 @@ Absolute minimum and maximums will also be used to make sure that the dynamic mi
 
 Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
 
+<table>
+ <tr align="center">
+  <td></td>
+  <td colspan="4"><b>Overview of the Absolute Minimum and Maximum Values</b></td>
+ </tr>
+ <tr align="center">
+  <td><b>Requirement</b></td><b>
+  <td><b>Minimum (Gloves)</b></td>
+  <td><b>Maximum (Gloves)</b></td>
+  <td><b>Minimum (Chest+)</b></td>
+  <td><b>Maximum (Chest+)</b></td>
+ </tr>
+ <tr align="center">
+  <td><b>Combined Lifetime</b></td>
+  <td>5000</td>
+  <td>10000</td>
+  <td>10000</td>
+  <td>25000</td>
+ </tr>
+ <tr align="center">
+  <td><b>Combined Recent</b></td>
+  <td>2500</td>
+  <td>5500</td>
+  <td>4500</td>
+  <td>8500</td>
+ </tr>
+ <tr align="center">
+  <td><b>Main Recent</b></td>
+  <td>1000</td>
+  <td>2200</td>
+  <td>1800</td>
+  <td>3400</td>
+ </tr>
+</table>
+
 ### Combined Recent Activity
 <table>
   <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
