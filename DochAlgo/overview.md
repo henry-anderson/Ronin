@@ -106,8 +106,8 @@ Simply using minimum activity is not enough, another necessary requirement is st
   <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%202500%20%20%5Cleq%20%20x_1%20d_%7B90%7D%20%20%5Cleq%205500%0A%5C%5C2500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%5Ctextless%202500%0A%5C%5C5500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%5Ctextgreater%205500%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C4500%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%5Ctextless%204500%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Ctextgreater%20%208000%0A%5Cend%7Bcases%7D%20"></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%202500%20%20%5Cleq%20%20x_1%20d_%7B90%7D%20%20%5Cleq%205500%0A%5C%5C5500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%5Ctextgreater%205500%0A%5C%5C2500%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Ctextgreater%20%208000%0A%5C%5C4500%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
 
@@ -137,8 +137,8 @@ The player must have acquired at least 40% of the combined activity minimum on t
   <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Ctextless%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2010000%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%5Ctextless%2010000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2025000%0A%5Cend%7Bcases%7D%20"></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2010000%0A%5C%5C5000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2025000%0A%5C%5C10000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
 
