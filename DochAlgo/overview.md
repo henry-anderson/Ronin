@@ -102,15 +102,15 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
   <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td ><b>Gloves</b></td>
-  <td><b>Chest</b></td>
+  <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%202500%20%20%5Cleq%20%20x_1%20d_%7B90%7D%20%20%5Cleq%205500%0A%5C%5C2500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%20%5Cleq%202500%0A%5C%5C5500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%20%20%5Cgeq%20%205500%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C4500%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%5Cleq%204500%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Cgeq%20%208000%0A%5Cend%7Bcases%7D%20"><br /></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C4500%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%5Cleq%204500%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Cgeq%20%208000%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
 
-<b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
+<b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <b>d<sub>90</sub></b>: The 90 day DKP pool<br />
 <b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
@@ -121,12 +121,11 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
  <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td><b>Gloves</b></td>
-  <td><b>Chest</b></td>
+  <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20"><br />
-</td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2025000%0A%5Cend%7Bcases%7D%20"><br /></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20">
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2025000%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
 \large L_{cmin} =\begin{cases}
@@ -141,10 +140,15 @@ y_2 a_{cmin}, & \text{if } 10000  \leq  y_2 a_{cmin}  \leq 25000
 <p />
 
 ## Declining Activity
-<img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
-<i>Player passes when this expression is true</i><br />
-<b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
-<b>a<sub>c90</sub></b>: The players combined 45 day activity<br />
+<table>
+ <tr align="center"><td><i>Player passes this requirement when the following expression is true</i></td</tr>
+ <tr align="center">
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
+  </td>
+ </tr>
+</table>
+<b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
+<b>a<sub>c90</sub></b>: The player's combined 45 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 </br>
 This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
