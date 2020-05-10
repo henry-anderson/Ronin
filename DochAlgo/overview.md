@@ -136,14 +136,10 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <p />
 
 ## Declining Activity
-<table>
- <tr>
-  <td align="center"><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
- </tr>
- <tr align="center"><td><i>Player passes when this expression is true</i></td</tr>
-</table>
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201" height="23">
+<i>Player passes when this expression is true</i><br />
 <b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
 <b>a<sub>c90</sub></b>: The player's combined 45 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-</br>
+<br />
 This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
