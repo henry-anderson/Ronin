@@ -127,7 +127,7 @@ x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is cu
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
 <b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-The player is required to have acquired at least 40% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1000 to 2200 for gloves and 1800 to 3400 for anything higher.
+The player must have acquired at least 40% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1000 to 2200 for gloves and 1800 to 3400 for anything higher.
 
 ### Combined Lifetime Minimum
 <table>
