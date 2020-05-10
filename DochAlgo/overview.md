@@ -124,26 +124,23 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
   <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20">
+  <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20"></td>
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2025000%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
-\large L_{cmin} =\begin{cases}
-y_2 a_{cmin}, & \text{if } 10000  \leq  y_2 a_{cmin}  \leq 25000
-\\10000, & \text{if } y_2 a_{cmin}  \leq 10000
-\\25000, & \text{if } y_2 a_{cmin}   \geq  25000
-\end{cases} 
 <b>L<sub>c</sub></b>: The minimum combined lifetime DKP<br />
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-<b>x<sub>2</sib></b>: A percent of 90 day activity (to be decided)<br />
+<b>x<sub>2</sub></b>: A percent of the 90 day activity minimum used for players working on their gloves (to be decided)<br />
+<b>y<sub>2</sub></b>: A percent of the 90 day activity minimum used for players who already have gloves (to be decided)<br />
 <p />
 
 ## Declining Activity
 <table>
- <tr align="center"><td><i>Player passes when this expression is true</i></td</tr>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
+ <tr>
+  <td align="center"><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201">
  </tr>
+ <tr align="center"><td><i>Player passes when this expression is true</i></td</tr>
 </table>
 <b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
 <b>a<sub>c90</sub></b>: The player's combined 45 day activity<br />
