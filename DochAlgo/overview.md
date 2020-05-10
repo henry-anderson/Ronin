@@ -137,7 +137,7 @@ Simply using minimum activity is not enough, another necessary requirement is st
 <table>
   <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
  <tr align="center">
-  <td ><b>Gloves</b></td>
+  <td><b>Gloves</b></td>
   <td><b>Chest+</b></td>
  </tr>
  <tr align="center">
