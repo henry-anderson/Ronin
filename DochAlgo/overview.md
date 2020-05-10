@@ -88,13 +88,15 @@ This is where it starts to get difficult. We must prevent inactive players who h
 
 The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is during a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
 
-Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
-
 <img src="https://i.imgur.com/rYxce11.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
 
 It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
 
 It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which could potentially be used as a minimum for gloves. Right now (4/30/20) there are 37 separate players above that activity compared to only 13 players on 06/15/19. That shows that we couldn't simply use 3500 as  a constant otherwise it would make it too easy, or in some cases too hard to meet the requirement.
+
+Absolute minimum and maximums will also be used to make sure that the dynamic minimum never gets too high or too low. The ambiguity this creates will motivate players to aim for the higher end of this range to guarantee that they will be eligible when the time comes.
+
+Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
 
 ### Combined Recent Activity
 <table>
@@ -150,7 +152,7 @@ x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is cu
 <img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201" height="23">
 <i>Player passes when this expression is true</i><br />
 <b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
-<b>a<sub>c90</sub></b>: The player's combined 45 day activity<br />
+<b>a<sub>c45</sub></b>: The player's combined 45 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <br />
 This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum. 
