@@ -94,7 +94,7 @@ It is significantly easier to acquire points during those peaks than it is durin
 
 It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which could potentially be used as a minimum for gloves. Right now (4/30/20) there are 37 separate players above that activity compared to only 13 players on 06/15/19. That shows that we couldn't simply use 3500 as  a constant otherwise it would make it too easy, or in some cases too hard to meet the requirement.
 
-Absolute minimum and maximums will also be used to make sure that the dynamic minimum never gets too high or too low. The ambiguity this creates will motivate players to aim for the higher end of this range to guarantee that they will be eligible when the time comes.
+Absolute minimum and maximums will also be used to make sure that the dynamic minimum never gets too high, in the case of server dominance, or too low. The ambiguity of these requirements will motivate players to aim for the higher end of this range to guarantee that they will be eligible when the time comes.
 
 Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
 
@@ -117,7 +117,7 @@ Simply using minimum activity is not enough, another necessary requirement is st
 <b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
 <b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
 <br />
-This sets the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums here are added so that the requirements don't get too high in the case of server dominance, or too low. These are set from 2500 to 5500 for gloves and 4500 to 8000 for any piece chest and above.
+This makes the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums are set from 2500 to 5500 for gloves and 4500 to 8000 for any piece chest and above.
 
 x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
 
@@ -127,6 +127,7 @@ x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is cu
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
 <b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
+The player is required to have acquired at least 40% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1000 to 2200 for gloves and 1800 to 3400 for anything higher.
 
 ### Combined Lifetime Minimum
 <table>
