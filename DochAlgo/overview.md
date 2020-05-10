@@ -117,13 +117,11 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
 
  ## Main Account's Recent Activity
- <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}">
+ <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}" height="22">
  <i>Player passes when a<sub>90</sub> ≥ a<sub>min</sub></i><br />
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
-<b>a<sub>min</sub></b>: The minimum 90 day activity to qualify<br />
+<b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-
-<p />
 
 ## Combined Lifetime Minimum
 <table>
