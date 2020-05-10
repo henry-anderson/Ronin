@@ -26,16 +26,20 @@
             document.getElementById("dkpoutput").value = formatted;
         }
         function countDKP() {
+            let bosses = [];
+            inputs = document.getElementById("bossOptions").getElementsByTagName('input');
+            for (i = 0; i < inputs.length; ++i) {
+                let input = inputs[i];
+                if(input.checked) {
+                    let bossStr = input.id.replace("Checkbox", "");
+                    bosses.push(getBoss(bossStr));
+                }
+            }
 			loadAliases(document.getElementById("playeraliases").value);
             let input = document.getElementById('dkpinput').value;
             let formatted = formatInput(input);
-            let counted = null;
-            if(document.getElementById("allowAttempts").checked) {
-                counted = countPoints(formatted, true, document.getElementById("attemptPercent").value);
-            }
-            else {
-                counted = countPoints(formatted);
-            }
+            let counted = countPoints(formatted, bosses);
+
             document.getElementById("dkpoutput").value = counted;
         }
         function clearOutput() {
@@ -65,37 +69,40 @@
                 input.value = null;
             }
         }
-        function togglePercentEnabled(enable) {
-            if(enable == true) {
-                document.getElementById('attemptPercent').removeAttribute('disabled');
-                document.getElementById('percentOuterWrapper').style.opacity = 1;
-            }
-            else {
-                document.getElementById('attemptPercent').setAttribute('disabled', 'disabled');
-                document.getElementById('percentOuterWrapper').style.opacity = 0.5;
-            }
-            let color = window.getComputedStyle(document.getElementById('attemptPercent')).color;
-            document.getElementById('percentSign').style.color = color;
-            document.getElementById('percentLabel').style.color = color;
-        }
 client.send();
     </script>
 </head>
-<body style="text-align:left;" onLoad="document.getElementById('playeraliases').value = playerAliases; togglePercentEnabled(false);">
+<body style="text-align:left;" onLoad="document.getElementById('playeraliases').value = playerAliases;">
     <div id="container">
         <div id="left_container">
             <textarea id="dkpinput" style="width:100%;height:500px;resize:none;"></textarea>
             <button type="button" style="display:inline-block;" onclick="formatDKP();">Format</button>
             <button type="button" style="display:inline-block;" onclick="countDKP();">Count DKP</button>
-            <input type="checkbox" id="allowAttempts" onClick="togglePercentEnabled(document.getElementById('allowAttempts').checked);">
-            <label for="allowAttempts"> Allow attempts?</label>
-            <span id="percentOuterWrapper">
-            <span id="percentWrapper"><input type="number" id="attemptPercent" min="0" max="100" value="50" onInput="forceNumberInputMaxMin(document.getElementById('attemptPercent'));"><span id="percentSign" style="font-size:13px;">%</span></span>
-            <label for="attemptPercent" id="percentLabel">Percent of kill</label>
-            <input type="checkbox" id="allowAttempts" onClick="togglePercentEnabled(document.getElementById('allowAttempts').checked);">
-
-            </span>
-        </span>
+        </br>
+        <div id="bossOptions">
+            <input type="checkbox" id="srengCheckbox">
+            <label for="srengCheckbox">Sreng</label>
+            <input type="checkbox" id="snorriCheckbox">
+            <label for="snorriCheckbox">Snorri</label>
+            <input type="checkbox" id="210Checkbox">
+            <label for="210Checkbox">210</label>
+            <input type="checkbox" id="215Checkbox">
+            <label for="215Checkbox">215</label>
+            <input type="checkbox" id="hippoCheckbox">
+            <label for="hippoCheckbox">Hippo</label>
+            <input type="checkbox" id="mordiCheckbox">
+            <label for="mordiCheckbox">Mordi</label></br>
+            <input type="checkbox" id="necroCheckbox">
+            <label for="necroCheckbox">Necro</label>
+            <input type="checkbox" id="protCheckbox">
+            <label for="protCheckbox">Proteus</label>
+            <input type="checkbox" id="geleCheckbox">
+            <label for="geleCheckbox">Gele</label>
+            <input type="checkbox" id="btCheckbox">
+            <label for="bloodthornCheckbox">Bloodthorn</label>
+            <input type="checkbox" id="dinoCheckbox">
+            <label for="dinoCheckbox">Dino</label>
+        </div>
 
 			</p>
 			<b>Aliases</b>
