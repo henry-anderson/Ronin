@@ -99,7 +99,7 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 
 ## Combined Recent Activity
 <table>
-  <tr align="center"><td colspan="2"><i><b>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></b></i></td</tr>
+  <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td ><b>Gloves</b></td>
   <td><b>Chest</b></td>
@@ -118,7 +118,7 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 
 ## Combined Lifetime Minimum
 <table>
- <tr align="center"><td colspan="2"><i><b>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></b></i></td</tr>
+ <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td><b>Gloves</b></td>
   <td><b>Chest</b></td>
