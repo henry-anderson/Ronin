@@ -98,7 +98,7 @@ It is significantly easier to acquire points during those peaks than it is durin
 It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves at that point in time. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
 
 ## Combined Recent Activity
-<img src="https://render.githubusercontent.com/render/math?math=$\large\text{Player passes when }a_{c90} \geq a_{cmin}\text{ where,}">
+<Player passes when a<sub>c90</sub> > a<sub>cmin</sub> where,<br />
 <img src="https://render.githubusercontent.com/render/math?math=\large%20a_%7Bcmin%7D%3D%5Cbegin%7Bcases%7Dx_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7Dx_1%20d_%7B90%7D%20%3E%202500%20%5C%5C2500%2C%20%26%20%5Ctext%7Botherwise%7D%20%5Cend%7Bcases%7D%20">
 <b>a<sub>c90</sub></b>: The players combined 90 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
