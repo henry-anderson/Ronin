@@ -116,6 +116,15 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 <b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
 <b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
 
+ ## Main Account's Recent Activity
+ <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}">
+ <i>Player passes when a<sub>90</sub> ≥ a<sub>min</sub></i><br />
+<b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
+<b>a<sub>min</sub></b>: The minimum 90 day activity to qualify<br />
+<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
+
+<p />
+
 ## Combined Lifetime Minimum
 <table>
  <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
@@ -128,6 +137,7 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2025000%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
+
 <b>L<sub>c</sub></b>: The minimum combined lifetime DKP<br />
 <b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
