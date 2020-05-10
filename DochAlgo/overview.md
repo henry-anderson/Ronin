@@ -25,7 +25,7 @@ Players are separated into four categories based on their class. When the clan i
 </table> 
 
 ## Rating
-<img src="https://render.githubusercontent.com/render/math?math=\large%20r=%20\frac{a_{c90}L_c}{p}">
+<img src="https://render.githubusercontent.com/render/math?math=\large%20r=%20\frac{a_{c90}L_c}{p}" height="40">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a<sub>c90</sub></b>: The combined DKP accumulated by the player over the last 90 days<br />
@@ -90,14 +90,13 @@ The problem that arises here is that the clan goes through cycles. It is much ea
 
 Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
 
-### Minimums
 <img src="https://i.imgur.com/rYxce11.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
 
 It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
 
-It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which seems like a good minimum for gloves at that point in time. As of 4/30/20 there are 37 separate players above that activity compared to only 13 players on 06/15/19.
+It's no secret that I am a casual player. Personally, Thallen's 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which could potentially be used as a minimum for gloves. Right now (4/30/20) there are 37 separate players above that activity compared to only 13 players on 06/15/19. That shows that we couldn't simply use 3500 as  a constant otherwise it would make it too easy, or in some cases too hard to meet the requirement.
 
-## Combined Recent Activity
+### Combined Recent Activity
 <table>
   <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
  <tr align="center">
@@ -120,14 +119,14 @@ This sets the required 90 day activity to be a certain percent (x<sub>1</sub> an
 
 x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
 
- ## Main Account's Recent Activity
+ ### Main Account's Recent Activity
  <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}" height="22">
  <i>Player passes when a<sub>90</sub> ≥ a<sub>min</sub></i><br />
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
 <b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 
-## Combined Lifetime Minimum
+### Combined Lifetime Minimum
 <table>
  <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
  <tr align="center">
@@ -147,7 +146,7 @@ x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is cu
 <b>y<sub>2</sub></b>: A percent of the 90 day activity minimum used for players who already have gloves (to be decided)<br />
 <p />
 
-## Declining Activity
+### Declining Activity
 <img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ba_%7Bc45%7D%20%20%5Cgeq%20%200.3a_%7Bc90%7D%5D%20%2B%20%5Ba_%7Bc45%7D%20%20%5Cgeq%200.8a_%7Bcmin%7D%5D%20%3D%201" height="23">
 <i>Player passes when this expression is true</i><br />
 <b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
