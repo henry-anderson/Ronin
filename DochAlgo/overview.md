@@ -99,11 +99,11 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 
 ## Combined Recent Activity
 <table>
+  <tr align="center"><td colspan="2"><i><b>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></b></i></td</tr>
  <tr align="center">
   <td ><b>Gloves</b></td>
   <td><b>Chest</b></td>
  </tr>
- <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%202500%20%20%5Cleq%20%20x_1%20d_%7B90%7D%20%20%5Cleq%205500%0A%5C%5C2500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%20%5Cleq%202500%0A%5C%5C5500%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%20%20%5Cgeq%20%205500%0A%5Cend%7Bcases%7D%20"></td>
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C4500%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%5Cleq%204500%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Cgeq%20%208000%0A%5Cend%7Bcases%7D%20"><br /></td>
@@ -118,11 +118,11 @@ It's no secret that I am a casual player. Personally, Thallen's 90 day activity 
 
 ## Combined Lifetime Minimum
 <table>
+ <tr align="center"><td colspan="2"><i><b>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></b></i></td</tr>
  <tr align="center">
   <td><b>Gloves</b></td>
   <td><b>Chest</b></td>
  </tr>
-  <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
  <tr align="center">
   <td><img src="https://render.githubusercontent.com/render/math?math=\large%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C5000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%205000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Cgeq%20%2010000%0A%5Cend%7Bcases%7D%20"><br />
 </td>
