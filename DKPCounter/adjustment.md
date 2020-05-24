@@ -58,9 +58,9 @@ A certain amount of DKP is awarded for killing bosses, camping, or leveling. Cam
   <tr>
     <td>Ifryn (185)</td>
     <td>0</td>
+    <td>2</td>
     <td>5</td>
-    <td>10</td>
-    <td>15</td>
+    <td>12</td>
   </tr>
   <tr>
     <td>Skath (190)</td>
