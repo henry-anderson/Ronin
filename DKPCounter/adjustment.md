@@ -33,7 +33,7 @@
     <td>5</td>
     <td>2</td>
     <td>5</td>
-    <td>10</td>
+    <td>15</td>
   </tr>
 </table>
 
