@@ -50,30 +50,30 @@
   <tr>
     <td>Ifryn (185)</td>
     <td>0</td>
-    <td>2</td>
     <td>5</td>
     <td>12</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Skath (190)</td>
     <td>0</td>
     <td>5</td>
-    <td>15</td>
-    <td>20</td>
+    <td>12</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Gron (195)</td>
     <td>0</td>
     <td>5</td>
     <td>15</td>
-    <td>20</td>
+    <td>25</td>
   </tr>
   <tr>
     <td>Krothur (200)</td>
     <td>0</td>
     <td>5</td>
-    <td>15</td>
-    <td>20</td>
+    <td>12</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Cragskor (205)</td>
