@@ -200,7 +200,22 @@
   </tr>
   <tr>
     <td>Legacy 180+</td>
-    <td>10</td>
+    <td>8</td>
     <td>15</td>
+  </tr>
+  <tr>
+    <td>Garanak</td>
+    <td>10</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Skain</td>
+    <td>12</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Urchaid</td>
+    <td>10</td>
+    <td>20</td>
   </tr>
 </table>
