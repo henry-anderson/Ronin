@@ -55,6 +55,15 @@ The syntax is the most important aspect to the software. If it is incorrect DKP 
 <pre>level 155-220 on thallen</pre>
 ___
 
+### Parking
+<pre>[boss] [stars] park on [player]</pre>
+* **[boss]** Represents the name of the boss. See the list below for aliases.
+* **[stars]** The number of stars. Using the word "main" is not sufficient
+  - Must be 6 as park points are only awarded for raids.
+* **[player]** The name of the player
+  - Case insensitive but the names must be spelt correctly
+  
+
 ### Player Aliases
 Player aliases are aliases that can be used instead of entering the players entire name. This is mainly used to fix simple errors, but can also be used to simplify the process. The current list of player aliases being used can be found <a href="../../docs/count/aliases.txt">here</a>. If you would like to request an alias submit a pull request with the desired changes.
 
@@ -88,3 +97,6 @@ This example would award the points to "sundropkiss" instead of "sundrop" since 
 * **Ring Boss**: ringboss, ring_boss, rb, rbs, ring
 * **Legacy 150-179**: legacy150, legacy_150, witchfinder, hopkins, comrack, akais, hurricanes, typhoons, garyn, devestator, jalan, paradai, blizzardgore, synak
 * **Legacy 180+**: legacy180, legacy_180, natan, athatch, garanak, gara, urchaid, maelstrom, whirlwinds, whirlwind, smolach, annihilator, skain, osan, blight, tomb
+* **Urchaid**: urchaid, urch
+* **Garanak**: garanak, gara, garan, garank
+* **Skain**: skain, skai

@@ -1,11 +1,3 @@
-# DKPCounter
-* <a href="syntax.md">Syntax</a>
-* <a href="examples.md">Example Syntax</a>
-* <a href="points.md">Points Awarded</a>
-# Points
-
-A certain amount of DKP is awarded for killing bosses, camping, or leveling. Camping raids award 10 points per hour camped. Eligible raids include Hrungnir, Efnisien, Mordris, and Gelebron. Leveling rewards 5 points every 5 levels above 155. The table below shows the points each boss is worth. For certain bosses additional "camp" points are awarded if the player is there before the boss spawns.
-  
 ## Dragonlord
 <table>
   <tr>
