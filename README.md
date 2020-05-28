@@ -5,6 +5,7 @@ Clan management tools for Ronin of Belenus
 * **<a href="DKPCounter/README.md">DKPCounter</a>**: Automatically counts DKP following a specific syntax (JavaScript)
 * **<a href="PublishDKP/README.md">PublishDKP</a>**: Easily award points to players on WebDKP
 * **<a href="ClanReports/README.md">ClanReports</a>**: Generate HTML reports on clan activity
+* **<a href="CombinedDKP/README.md">CombinedDKP</a>**: Combines lifetime and recent DKP across multiple accounts
 * **<a href="DochAlgo/README.md">DochAlgo (TODO)</a>**: An algorithm for determining the receipient of Doch Gul armour based on clan contribution
 
 ## License
