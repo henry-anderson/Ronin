@@ -50,14 +50,17 @@ public class Main {
 	        	
 		        while((line = reader.readLine()) != null) {
 		        	List<String> alts = new ArrayList<String>();
-		        	String[] accounts = line.split(",");
+		        	String[] accounts = line.toLowerCase().split(",");
 		        	String main;
 		        	if(accounts.length > 1) {
-		        		main = accounts[0];
-		        		alts = Arrays.asList(Arrays.copyOfRange(accounts, 1, accounts.length));
+		        		main = accounts[0].trim();
+		        		alts = new ArrayList<String>();
+		        		for(String alt : Arrays.copyOfRange(accounts, 1, accounts.length)) {
+		        			alts.add(alt.trim());
+		        		}
 		        	}
 		        	else {
-		        		main = accounts[0];
+		        		main = accounts[0].trim();
 		        	}
 		        	players.add(new Player(main, alts));
 		        }
@@ -87,12 +90,12 @@ public class Main {
 				
 				File output = new File("combined.csv");
 				BufferedWriter writer = new BufferedWriter(new FileWriter(output));
-				System.out.println("Main,Combined Lifetime,Combined 90 Day Activity,Combined 45 Day Activity");
-				writer.append("Main,Combined Lifetime,Combined 90 Day Activity,Combined 45 Day Activity");
+				System.out.println("Main,Combined Lifetime,Combined 90 Day Activity,Combined 45 Day Activity,Main 90 Day Activity");
+				writer.append("Main,Combined Lifetime,Combined 90 Day Activity,Combined 45 Day Activity,Main 90 Day Activity");
 				writer.newLine();
 				for(Player player : players) {
-					System.out.println(player.getMain() + "," + player.getCombinedLifetime() + "," + player.getCombined90Days() + "," + player.getCombined45Days());
-					writer.append(player.getMain() + "," + player.getCombinedLifetime() + "," + player.getCombined90Days() + "," + player.getCombined45Days());
+					System.out.println(player.getMain() + "," + player.getCombinedLifetime() + "," + player.getCombined90Days() + "," + player.getCombined45Days() + "," + table.getPlayer(player.getMain()).getPoints90Days());
+					writer.append(player.getMain() + "," + player.getCombinedLifetime() + "," + player.getCombined90Days() + "," + player.getCombined45Days() + "," + table.getPlayer(player.getMain()).getPoints90Days());
 					writer.newLine();
 				}
 				writer.close();

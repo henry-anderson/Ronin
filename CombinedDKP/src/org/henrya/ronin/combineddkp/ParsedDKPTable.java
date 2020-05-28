@@ -27,7 +27,7 @@ public class ParsedDKPTable {
 	        while((line = br.readLine()) != null){
 	            if(line.startsWith("PLAYER")) {
 	            	String[] split = line.split(" \\| ");
-	            	String name = split[0].split(" ", 2)[1];
+	            	String name = split[0].split(" ", 2)[1].toLowerCase();
 	            	String[] secondSplit = split[1].split(" ");
 	            	int points = Integer.parseInt(secondSplit[0]);
 	            	int lifetime = Integer.parseInt(secondSplit[1]);
