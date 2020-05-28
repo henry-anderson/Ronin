@@ -1,26 +1,15 @@
 const Boss = {
 
     /** DL bosses **/
-    DL_155: {
-        aliases: ["155", "spider", "spidey", "ulrob"],
-        points: {
-            attempt: false,
-            camp: 0,
-            park: 0,
-            kill4: 2,
-            kill5: 5,
-            kill6: 10,
-        }
-    },
     DL_160: {
         aliases: ["160", "priest"],
         points: {
             attempt: false,
             camp: 0,
             park: 0,
-            kill4: 2,
-            kill5: 5,
-            kill6: 10,
+            kill4: 1,
+            kill5: 3,
+            kill6: 6,
         }
     },
     DL_165: {
@@ -29,9 +18,9 @@ const Boss = {
             attempt: false,
             camp: 0,
             park: 0,
-            kill4: 2,
-            kill5: 5,
-            kill6: 10,
+            kill4: 1,
+            kill5: 3,
+            kill6: 8,
         }
     },
     DL_170: {
@@ -40,8 +29,8 @@ const Boss = {
             attempt: false,
             camp: 5,
             park: 0,
-            kill4: 2,
-            kill5: 5,
+            kill4: 1,
+            kill5: 3,
             kill6: 10,
         }
     },
@@ -53,7 +42,7 @@ const Boss = {
             park: 0,
             kill4: 2,
             kill5: 5,
-            kill6: 10,
+            kill6: 15,
         }
     },
 
@@ -65,8 +54,8 @@ const Boss = {
             camp: 0,
             park: 0,
             kill4: 5,
-            kill5: 10,
-            kill6: 15,
+            kill5: 12,
+            kill6: 18,
         }
     },
     EDL_190: {
@@ -76,8 +65,8 @@ const Boss = {
             camp: 0,
             park: 0,
             kill4: 5,
-            kill5: 15,
-            kill6: 20,
+            kill5: 12,
+            kill6: 18,
         }
     },
     EDL_195: {
@@ -88,7 +77,7 @@ const Boss = {
             park: 0,
             kill4: 5,
             kill5: 15,
-            kill6: 20,
+            kill6: 25,
         }
     },
     EDL_200: {
@@ -98,8 +87,8 @@ const Boss = {
             camp: 0,
             park: 0,
             kill4: 5,
-            kill5: 15,
-            kill6: 20,
+            kill5: 12,
+            kill6: 18,
         }
     },
     EDL_205: {
@@ -121,7 +110,7 @@ const Boss = {
             park: 0,
             kill4: 5,
             kill5: 15,
-            kill6: 20,
+            kill6: 30,
         }
     },
     EDL_215: {
@@ -132,7 +121,7 @@ const Boss = {
             park: 0,
             kill4: 5,
             kill5: 15,
-            kill6: 20,
+            kill6: 30,
         }
     },
 
@@ -245,8 +234,8 @@ const Boss = {
             camp: 0,
             park: 0,
             kill4: 0,
-            kill5: 10,
-            kill6: 40,
+            kill5: 5,
+            kill6: 25,
         }
     },
     FACTIONS: {
@@ -285,14 +274,47 @@ const Boss = {
         }
     },
     LEGACY_180: {
-        aliases: ["legacy180", "legacy_180", "natan", "athatch", "garanak", "gara", "urchaid", "maelstrom", "whirlwinds", "whirlwind", "smolach", "annihilator", "skain", "osan", "blight", "tomb"],
+        aliases: ["legacy180", "legacy_180", "natan", "athatch", "maelstrom", "whirlwinds", "whirlwind", "smolach", "annihilator", "skain", "osan", "blight", "tomb"],
         points: {
             attempt: false,
             camp: 0,
             park:0,
             kill4: 0,
-            kill5: 10,
+            kill5: 8,
             kill6: 15,
+        }
+    },
+    URCHAID: {
+        aliases: ["urchaid", "urch"],
+        points: {
+            attempt: false,
+            camp: 0,
+            park: 0,
+            kill4: 0,
+            kill5: 10,
+            kill6: 20,
+        }
+    },
+    GARANAK: {
+        aliases: ["garanak", "gara", "garan", "garank"],
+        points: {
+            attempt: false,
+            camp: 0,
+            park: 0,
+            kill4: 0,
+            kill5: 10,
+            kill6: 25,
+        }
+    },
+    SKAIN: {
+        aliases: ["skain", "skai"],
+        points: {
+            attempt: false,
+            camp: 0,
+            park: 0,
+            kill4: 0,
+            kill5: 12,
+            kill6: 30,
         }
     },
 };
@@ -340,7 +362,7 @@ const BonusType = {
     },
 	CAMP: {
         aliases: ["camped"],
-        points: 10,
+        points: 15,
     },
 };
 
