@@ -159,7 +159,7 @@ Simply using minimum activity is not enough, another necessary requirement is st
 <b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
 <b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
 <br />
-This makes the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums are set from 2500 to 5500 for gloves and 4500 to 8000 for any piece chest and above.
+This makes the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums are set from 1500 to 3300 for gloves and 2700 to 5100 for any piece chest and above.
 
 x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
 
@@ -169,7 +169,7 @@ x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is cu
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
 <b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-The player must have acquired at least 40% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1000 to 2200 for gloves and 1800 to 3400 for anything higher.
+The player must have acquired at least 40% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1500 to 3300 for gloves and 1800 to 3400 for anything higher.
 
 ### Combined Lifetime Minimum
 <table>
