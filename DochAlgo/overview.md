@@ -198,4 +198,7 @@ The player must have acquired at least 40% of the combined activity minimum on t
 <b>a<sub>c45</sub></b>: The player's combined 45 day activity<br />
 <b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
 <br />
-This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum. 
+This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
+
+### Loyalty
+Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players DG which is why players must be 
