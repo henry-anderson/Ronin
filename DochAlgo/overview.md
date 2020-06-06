@@ -164,7 +164,7 @@ This makes the required 90 day activity to be a certain percent (x<sub>1</sub> a
 x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
 
  ### Main Account's Recent Activity
- <img src="https://render.githubusercontent.com/render/math?math=\large a_{min} = 0.4a_{cmin}" height="20"><br/>
+ <img src="https://i.imgur.com/EEpGR2m.png" height="20"><br/>
  <i>Player passes when a<sub>90</sub> ≥ a<sub>min</sub></i><br />
 <b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
 <b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
