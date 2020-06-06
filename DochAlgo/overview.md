@@ -25,11 +25,14 @@ Players are separated into four categories based on their class. When the clan i
 </table> 
 
 ## Rating
-<img src="https://render.githubusercontent.com/render/math?math=\large%20r=%20\frac{a_{c90}L_c}{p}" height="40">
+<img src="https://i.imgur.com/DJ1vzDv.png">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a<sub>c90</sub></b>: The combined DKP accumulated by the player over the last 90 days<br />
 <b>p</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
+<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days.
+<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days.
+
 <p />
 
 The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
