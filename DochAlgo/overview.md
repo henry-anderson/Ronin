@@ -180,7 +180,7 @@ The player must have acquired at least 40% of the combined activity minimum on t
  </tr>
  <tr align="center">
   <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2010000%0A%5C%5C5000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://i.imgur.com/ycwKwSc.png"></td>
+  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2025000%0A%5C%5C10000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
  </tr>
 </table>
 
