@@ -25,12 +25,12 @@ Players are separated into four categories based on their class. When the clan i
 </table> 
 
 ## Rating
-<img src="https://i.imgur.com/DJ1vzDv.png">
+<img src="https://i.imgur.com/qrqmAW6.png">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a<sub>c90</sub></b>: The combined DKP accumulated by the player over the last 90 days<br />
-<b>p</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.
-<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days.
+<b>p</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.<br />
+<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days.<br />
 <b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days.
 
 <p />
@@ -85,6 +85,8 @@ Suppose the player was a rogue and hasn't received any Doch Gul. In this sitatio
 
 </td>
 </table>
+
+<img src="https://i.imgur.com/nHxnlLl.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's proteus attendance is held constant while the rating at differing unox attendances is shown. Player's are penalized based on their proteus and unox attendances which exponentially decreases until that penalty is negligible.
 
 ## Eligibility
 This is where it starts to get difficult. We must prevent inactive players who have acquired a large amount of points in the past from receiving Doch Gul along with players who rarely play on the account they have designated as their main DG account. Minimum amounts for combined lifetime, combined recent activity, main lifetime, and main activity can be used to disqualify these players.
