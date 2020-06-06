@@ -133,10 +133,10 @@ Simply using minimum activity is not enough, another necessary requirement is st
  </tr>
  <tr align="center">
   <td><b>Main Recent</b></td>
-  <td>1000</td>
-  <td>2200</td>
-  <td>1800</td>
-  <td>3400</td>
+  <td>1500</td>
+  <td>3300</td>
+  <td>2700</td>
+  <td>5100</td>
  </tr>
 </table>
 
