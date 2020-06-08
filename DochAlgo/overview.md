@@ -270,6 +270,7 @@ Suppose we grouped all warriors, druids, and mages into a single category regard
 </tbody>
 </table>Despite having a significant more amount of activity, proteus, and 215 kills, S3XYMAGE and luckyandfun are not far behind Raynard Winters. This is because he already has his gloves and the rating scale is standardized based on the amount of confluxes the player would be using. That means he has to work harder to receive his chest before the others receive their gloves. This is also the reason that Exblood's rating is so low relative to the others as he already has DG gloves.
 
+
 The problem that is holding down luckyandfun's rating is his 215 and proteus attendances. If this were not taken into account he would rank higher than both Raynard and S3XYMAGE. If these were rangers or rogues there would be far less of a gap between players working towards their chest and players working on gloves because class confluxes are used. That creates about a 1 to 3.5 ratio between the two compared to the 1 to 5 ratio used here as pures are the limiting factor.
 
 ## Conclusion
