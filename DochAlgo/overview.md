@@ -201,4 +201,72 @@ The player must have acquired at least 60% of the combined activity minimum on t
 This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
 
 ### Loyalty
-Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players DG which is why players must be 
+This requirement is not specific and the player must be in the clan for at least 90 days for gloves and 180 days for anything higher. Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players our most valued armor.
+
+## Discussion
+Suppose we grouped all warriors, druids, and mages into a single category regardless of whether they have already received their gloves. Without looking at any other requirements this is what the top 6 candidate's rating would look like on 06/07/2020.
+
+<table>
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Lifetime</th>
+    <th>Recent</th>
+    <th>Unox</th>
+    <th>Proteus</th>
+   <th>Rating / 10<sup>6</sup></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Raynard Winters</td>
+    <td>34227</td>
+    <td>16983</td>
+    <td>215</td>
+    <td>26</td>
+    <td>93.25</td>
+  </tr>
+  <tr>
+    <td>S3XYMAGE</td>
+    <td>20864</td>
+    <td>4927</td>
+    <td>43</td>
+    <td>10</td>
+    <td>86.48</td>
+  </tr>
+  <tr>
+    <td>luckyandfun</td>
+    <td>21052</td>
+    <td>5406</td>
+    <td>15</td>
+    <td>10</td>
+    <td>81.29</td>
+  </tr>
+  <tr>
+    <td>aLdRyN</td>
+    <td>19529</td>
+    <td>4599</td>
+    <td>21</td>
+    <td>11</td>
+    <td>68.93</td>
+  </tr>
+  <tr>
+    <td>Meatball</td>
+    <td>11183</td>
+    <td>4240</td>
+    <td>10</td>
+    <td>9</td>
+    <td>30.48</td>
+  </tr>
+  <tr>
+    <td>Exblood</td>
+    <td>19518</td>
+    <td>3922</td>
+    <td>37</td>
+    <td>11</td>
+    <td>10.60</td>
+  </tr>
+</tbody>
+</table>Despite having a significant more amount of activity, proteus, and 215 kills, S3XYMAGE and luckyandfun are not far behind Raynard Winters. This is because he already has his gloves and the rating scale is standardized based on the amount of confluxes the player would be using. That means he has to work harder to receive his chest before the others receive their gloves. This is also the reason that Exblood's rating is so low relative to the others as he already has DG gloves.
+
+The problem that is holding down luckyandfun's rating is his 215 and proteus attendances. If this were not taken into account he would rank higher than both Raynard and S3XYMAGE.
