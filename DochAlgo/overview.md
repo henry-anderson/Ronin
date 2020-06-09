@@ -86,7 +86,7 @@ Suppose the player was a rogue and hasn't received any Doch Gul. In this sitatio
 </td>
 </table>
 
-<img src="https://i.imgur.com/nHxnlLl.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's proteus attendance is held constant while the rating at differing unox attendances is shown. Player's are penalized based on their proteus and unox attendances which exponentially decreases until that penalty is negligible. 
+<img src="https://i.imgur.com/WA9KvQr.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's proteus attendance is held constant while the rating at differing unox attendances is shown. Player's are penalized based on their proteus and unox attendances which exponentially decreases until that penalty is negligible. 
 
 DKP is already weighted based on importance of the boss so it's very unlikely that someone with few unox or proteus attendances would rank very highly using this system. This is used more as a way of stressing the importance of these two bosses and stating that if you want DG then you need to go to proteus and 215. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
 
@@ -95,7 +95,7 @@ This is where it starts to get difficult. We must prevent inactive players who h
 
 The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is during a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
 
-<img src="https://i.imgur.com/rYxce11.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
+<img src="" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
 
 It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
 
@@ -274,6 +274,18 @@ Despite having a significant more amount of activity, proteus, and 215 kills, S3
 </p>
 
 The problem that is holding down luckyandfun's rating is his 215 and proteus attendances. If this were not taken into account he would rank higher than both Raynard and S3XYMAGE. If these were rangers or rogues there would be less of a gap between players working towards their chest and players working on gloves because class confluxes are used. That creates about a 1 to 3.5 ratio between the two compared to the 1 to 5 ratio used here as pures are the limiting factor.
+
+## Protocol
+* Generals hold a 24 hour vote on a category of players
+* A final count is completed
+* Proteus and Unox attendances are added up for each player in the chosen category
+* All relevant information is inserted into the program
+* The winner along with all input data is posted in the general group to be audited for mistakes for a 24 hour period
+* Drops are sent and the winner is announced to the clan
+
+It's a bad idea to post the raw results directly to the clan as it may indirectly cause drama and shaming for inactivity. Instead clan members should be allowed to request this information directly from us to see how they ranked and where they need to improve.
+
+If a winner is chosen and we do not yet have the required confluxes to distribute that piece of armor then it will be postponed and the entire process will be repeated when we have acquired the necessary components. The same category of players must be selected and the same winner must be chosen for them to actually receive their Doch Gul.
 
 ## Conclusion
 Determining Doch Gul recipients based on an algorithmic approach is far superior than a vote based system. Ever since we moved beyond simply distributing gloves it has become increasingly difficult to make the best decisions with some players having different pieces than others. This rating scale standardizes each player's rating to match the amount of confluxes that will be invested in them so that players with no DG can be compared to both players with gloves and chest or even players in Lark, or Rengwen's situation. It's simply impossible to take every piece of information into account using a vote based system yet it can be done in milliseconds here without any accusations of bias.
