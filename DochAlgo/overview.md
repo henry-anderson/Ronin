@@ -25,7 +25,7 @@ Players are separated into four categories based on their class. When the clan i
 </table> 
 
 ## Rating
-<img src="https://i.imgur.com/qrqmAW6.png">
+<img src="https://i.imgur.com/odfiM6A.png">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
 <b>a<sub>c90</sub></b>: The combined DKP accumulated by the player over the last 90 days<br />
