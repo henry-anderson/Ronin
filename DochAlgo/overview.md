@@ -95,7 +95,7 @@ This is where it starts to get difficult. We must prevent inactive players who h
 
 The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is during a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
 
-<img src="" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
+<img src="https://i.imgur.com/rYxce11.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
 
 It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
 
@@ -202,7 +202,7 @@ The player must have acquired at least 60% of the combined activity minimum on t
 This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
 
 ### Loyalty
-This requirement is not specific and the player must be in the clan for at least 90 days for gloves and 180 days for anything higher. Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players our most valued armor.
+The player must be in the clan for at least 90 days for gloves and 180 days for anything higher. Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players our most valued armor.
 
 ## Discussion
 Suppose we grouped all warriors, druids, and mages into a single category regardless of whether they have already received their gloves. Without looking at any other requirements this is what the top 6 candidate's rating would look like on 06/07/2020.
