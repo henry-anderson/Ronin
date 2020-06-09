@@ -1,3 +1,6 @@
+# Doch Gul
+This document defines a procedural and algorithmic approach in deciding which candidates receive pieces of Doch Gul (DG) armor based on an unbias method in which clan leaders control very little of the decision making process. Generals decide on a category of players in which they want to distribute DG pieces too. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired across all of their accounts. The player with the highest rating receives the next piece of armor that they are working towards.
+
 ## Categories
 There are four categories of players. Rogues, rangers, others (gloves), and others (chest+) that generals vote on. In the first two categories all of these players compete against each other whether they have yet to receive their gloves or they already have their chest. After the generals decide on a category a winner is decided based on the factors below. 
 
