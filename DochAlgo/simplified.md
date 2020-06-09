@@ -1,7 +1,8 @@
-## Rating
-The rating is essentially your combined lifetime DKP multiplied by your combined 90 day activity divided by the number of confluxes that would be used to create the player's next piece of armor. This way players who have different pieces of DG can be easily compared to each other.
+## Categories
+There are four categories of players. Rogues, rangers, others (gloves), and others (chest+) that generals vote on. In the first two categories all of these players compete against each other whether they have yet to receive their gloves or they already have their chest. After the generals decide on a category a winner is decided based on the factors below. 
 
-Part of the player's rating is deducted based on their Proteus and Unox attendance. The more attendance a player has the lower this deduction is.
+## Rating
+The rating is essentially your combined lifetime DKP multiplied by your combined 90 day activity divided by the number of confluxes that would be used to create the player's next piece of armor. This way players who have different pieces of DG can be easily compared to each other. Part of the player's rating is deducted based on their Proteus and Unox attendance. The more attendance a player has the lower this deduction is. The player with the highest rating in the category chosen receives their next piece of DG.
 
 ## Eligibility
 The player must pass a number of requirements to be considered eligible.
@@ -21,3 +22,10 @@ A formula comparing the player's combined 45 day activity to their 90 day activi
 ### Loyalty
 The player must have been in the clan for at least 90 days to receive gloves and 180 days to receive their chest or higher. Whether the player left for 2 hours because they were irritated or whether they are completely new is irrelevant here.
 
+## Protocol
+* Generals hold a 24 hour vote to decide on a category of players
+* A final count is completed
+* Proteus and Unox attendances are added up for each player in the chosen category
+* All relevant information is inserted into the program
+* The winner along with all input data is posted in the general group to be audited for mistakes for a 24 hour period
+* Drops are sent and the winner is announced to the clan
