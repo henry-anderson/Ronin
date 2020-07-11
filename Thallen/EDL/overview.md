@@ -2,7 +2,7 @@
 This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired on the account in the vote. The player with the highest rating receives their weapon.
 
 ## Rating
-<img src="https://i.imgur.com/CNGAn54.png" height="50px">
+<img src="https://i.imgur.com/Qfrykor.png">
 <b>r</b>: The players rating<br />
 <b>L<sub>c</sub></b>: The lifetime DKP of the player<br />
 <b>a<sub>c90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
