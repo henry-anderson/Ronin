@@ -85,7 +85,7 @@ The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 9
 <table>
  <thead>
   <tr align="center">
-   <th><br /><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></p></th>
+   <th><br /><img src="https://i.imgur.com/N9IdV9O.png" height="20px"></p></th>
   </tr>
  </thead>
  <tbody>
@@ -99,10 +99,10 @@ The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 9
 
 <b>a<sub>90 </sub></b>    The player's 90 day activity<br />
 <b>a<sub>45 </sub></b>    The player's 45 day activity<br />
-<b>a<sub>min</sub></b>    The minimum required activity (1000 or 800)
+<b>a<sub>min</sub></b>    The minimum required activity (Currently 1000)
 </pre>
 
-This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
+This prevents players with declining activity from qualifying. In simplistic terms, The function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum 90 day requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
 
 ### Loyalty
 The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main toon left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
