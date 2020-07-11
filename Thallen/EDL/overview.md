@@ -1,5 +1,19 @@
 # EDL Weapons
-This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired on the account in the vote. The player with the highest rating receives their weapon.
+This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired that the player has acquired. The player with the highest rating receives their weapon.
+
+## Protocol
+* The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
+* A final count is completed if there has not been on in the past 7 days
+* Unox and Revenant attendances are added up for each player for the past 60 days
+* All relevant information is inserted into the program
+* The winner along with all input data is posted in the general group to be audited for mistakes for a 12 hour period
+* Drops are sent and the winner is announced to the clan
+
+It's a bad idea to post the raw results directly to the clan as it may indirectly cause drama and shaming for inactivity. Instead clan members should be allowed to request this information directly from us to see how they ranked and where they need to improve.
+
+If a player does not meet the requirements the Generals can hold a vote to bypass immediate elimination so long as it results in at least 75% in favor. This does not cause them to automatically win, it just allows them to be included. Their rating still decides whether they will win. This can be used when the bank is saturated and there are no eligible players.
+
+Generals can also vote on whether to deny a winner and either give the weapon to the runner up, or save it in the bank. This vote must be <b>unanimous</b> making it unlikely to pass unless there is a very good reason.
 
 ## Rating
 <table>
@@ -79,7 +93,7 @@ We must prevent inactive players who have acquired a large amount of points in t
 <b>a<sub>90 </sub></b>    The player's 90 day activity<br />
 <b>a<sub>45 </sub></b>    The player's 45 day activity
 </pre>
-The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 90 and 500 DKP in the past 45 days. The lifetime requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. The activity requirement may seem too lenient we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
+The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 90 days and 500 DKP in the past 45 days. The lifetime requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. The activity requirement may seem too lenient, but we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
 
 ### Declining Activity
 <table>
@@ -275,17 +289,63 @@ The table below depicts which requirements each player is passing. While attenda
   </tr>
  </tbody>
  </table>
-
-## Protocol
-* The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
-* A final count is completed if there has not been on in the past 7 days
-* Unox and Revenant attendances are added up for each player for the past 60 days
-* All relevant information is inserted into the program
-* The winner along with all input data is posted in the general group to be audited for mistakes for a 12 hour period
-* Drops are sent and the winner is announced to the clan
-
-It's a bad idea to post the raw results directly to the clan as it may indirectly cause drama and shaming for inactivity. Instead clan members should be allowed to request this information directly from us to see how they ranked and where they need to improve.
-
-If a player does not meet the requirements the Generals can hold a vote to bypass immediate elimination so long as it results in at least 75% in favor. This does not cause them to automatically win, it just allows them to be included. Their rating still decides whether they will win. This can be used when the bank is saturated and there are no eligible players.
-
-Generals can also vote on whether to deny a winner and either give the weapon to the runner up, or save it in the bank. This vote must be <b>unanimous</b> making it unlikely to pass unless there is a very good reason.
+ 
+ A second example using warriors can be shown below.
+ 
+ <table>
+<thead>
+  <tr align="center">
+    <th>Name</th>
+    <th>Rating / 10<sup>6</sup></th>
+    <th>Lifetime</th>
+    <th>90 day</th>
+    <th>45 day</th>
+    <th>Unox</th>
+    <th>Revenant</th>
+   <th>Eligible</th>
+  </tr>
+</thead>
+<tbody>
+  <tr align="center">
+    <td>Go Away</td>
+    <td>6.75</td>
+    <td>3945</td>
+    <td>1748</td>
+    <td>1088</td>
+    <td>252</td>
+    <td>236</td>
+   <td>True</td>
+  </tr>
+  <tr align="center">
+    <td>Maxemillian</td>
+    <td>3.11</td>
+    <td>1921</td>
+    <td>1701</td>
+    <td>616</td>
+    <td>159</td>
+    <td>159</td>
+   <td>False</td>
+  </tr>
+  <tr align="center">
+    <td>Trixii</td>
+    <td>2.24</td>
+    <td>8797</td>
+    <td>372</td>
+    <td>92</td>
+    <td>24</td>
+    <td>8</td>
+   <td>False</td>
+  </tr>
+  <tr align="center">
+    <td>Tankzalot</td>
+    <td>1.71</td>
+    <td>2776</td>
+    <td>655</td>
+    <td>126</td>
+    <td>106</td>
+    <td>57</td>
+   <td>False</td>
+  </tr>
+</tbody>
+</table>
+We have far less warriors in need of their EDL weapons so the average rating here is very low and only one player actually qualified leaving Go Away the winner. Suppose Go Away already had her weapon. This would be a situation that could potential come down to a General vote. The Generals would vote to bypass the lifetime requirement for Maxemillian as he has the highest rating of the ineligible players.
