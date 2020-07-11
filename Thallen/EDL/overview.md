@@ -75,7 +75,6 @@ The player must be in the clan for at least 90 days without leaving to receive e
 Below is a theoretical rogue offhand vote based on data from 07/11/2020. Sneakashell would be the winner as his rating is the highest due to his high lifetime and activity. Thallen would be second because his lifetime is high, but activity is low in comparison. Assuming everyone's lifetime and attendance stayed constant, if Thallen wanted to win his 90 day activity would need to increase to 10800. They have about the same lifetime points, but Thallen incurs a larger attendance deduction than Sneakashell which is why his activity would need to be significantly higher. If his attendance matched Sneakashell's, Thallen would only need to increase his 90 day activity to 9250.
 
 Despite Palaemon's lifetime, he is third because of his relatively low activity. Assuming constant lifetime and attendance he would need to increase his 90 day activity to 1600 to beat Thallen and 7000 to beat Sneakashell. Some TankGuy is a newer player with low lifetime, but good activity. His lifetime would need to be 5300 to beat Palaemon and 7000 to beat Thallen.
-
 <table>
 <thead>
   <tr>
@@ -162,11 +161,11 @@ Despite Palaemon's lifetime, he is third because of his relatively low activity.
   </tr>
 </tbody>
 </table>
-
 Supersayian, Sir Meliodas, and Depr1ved did not pass the necessary requirements to qualify. Supersayian would need to surpass 3000 lifetime to qualify. He would also need to increase his 45 day activity by about 250 points to pass the declining activity requirement. Sir Meliodas did not pass the declining activity requirement as his 45 day activity is only 10% of his 90 day activity. His rating is zero because his attendance within the past 60 days was minimal.
 
 Depr1ved was a power player who recently went inactive. Despite having acquired 3096 points in the past 90 days he is not eligible. He has not received any points in the past 45 days which automatically disqualifies him as it is under 500.
 
+The table below depicts which requirements each player is passing. While attendance isn't technically a requirement, it still ruins a player's rating at a certain point which is why it is included in the table.
 <table>
  <thead>
   <tr>
