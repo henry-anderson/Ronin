@@ -4,42 +4,17 @@ This document defines a procedural and algorithmic approach in deciding which ca
 ## Rating
 <table>
  <thead>
-  <tr align="left">
-    <th colspan="2"><img src="https://i.imgur.com/Qfrykor.png" height="80%"></th>
+  <tr align="center">
+    <th><img src="https://i.imgur.com/Qfrykor.png" height="80%"></th>
   </tr>
  </thead>
  <tbody>
-  <tr align="left">
-   <td><b>r</b></td>
-   <td>The players rating</td>
-  </tr>
-     <tr align="left">
-
-   <td><b>L</b></td>
-   <td>The lifetime DKP of the player</td>
-    </tr>
-    <tr align="left">
-
-   <td><b>a<sub>90</sub></b></td>
-   <td>The DKP accumulated by the player over the last 90 days</td>
-   
-   </tr>
-   <tr align="left">
-
-   <td><b>k<sub>u</sub></b></td>
-   <td>he amount of Unox (215) attendances in the past 60 days across all accounts</td>
-   </tr>
-   <tr align="left">
-
-   <td><b>k<sub>r</sub></b></td>
-   <td>he amount of Revenant (210) attendances in the past 60 days across all accounts</td>
- 
+  <tr>
+   <td align="center"><sub>r refers to the players rating value</sub></td>
   </tr>
  </tbody>
 </table>
 
-<img src="https://i.imgur.com/Qfrykor.png">
-<b>r</b>: The players rating<br />
 <b>L</b>: The lifetime DKP of the player<br />
 <b>a<sub>90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
 <b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days across all accounts<br / >
@@ -60,7 +35,7 @@ We must prevent inactive players who have acquired a large amount of points in t
  <tr align="center">
   <td colspan="4"><b>Overview of the Minimum Requirements</b></td>
  </tr>
- <tr align="center">
+ <tr align="center"
   <td><b>Requirement</b></td>
   <td><b>Main Hand</b></td>
   <td><b>Offhand</b></td>
