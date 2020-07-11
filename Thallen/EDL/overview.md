@@ -72,67 +72,84 @@ This prevents players with declining activity from qualifying. In simplistic ter
 The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
 
 ## Discussion
-Suppose we grouped all warriors, druids, and mages into a single category regardless of whether they have already received their gloves. Without looking at any other requirements this is what the top 6 candidate's rating would look like on 06/07/2020.
+Below is a theoretical rogue offhand vote.
 
 <table>
 <thead>
   <tr>
     <th>Name</th>
+    <th>Rating / 10<sup>6</sup></th>
     <th>Lifetime</th>
-    <th>Recent</th>
+    <th>90 day</th>
+    <th>45 day</th>
     <th>Unox</th>
-    <th>Proteus</th>
+    <th>Revenant</th>
    <th>Rating / 10<sup>6</sup></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Raynard Winters</td>
-    <td>34227</td>
-    <td>16983</td>
-    <td>215</td>
-    <td>26</td>
-    <td>93.25</td>
+    <td>Sneakashell</td>
+    <td>106.49</td>
+    <td>112747</td>
+    <td>8704</td>
+    <td>3839</td>
+    <td>163</td>
+    <td>86</td>
   </tr>
   <tr>
-    <td>S3XYMAGE</td>
-    <td>20864</td>
-    <td>4927</td>
+    <td>Thallen</td>
+    <td>23.97</td>
+    <td>12037</td>
+    <td>2424</td>
+    <td>1169</td>
+    <td>36</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Palaemon</td>
+    <td>17.96</td>
+    <td>17751</td>
+    <td>1165</td>
+    <td>515</td>
+    <td>57</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>Some TankGuy</td>
+    <td>13.61</td>
+    <td>3950</td>
+    <td>3824</td>
+    <td>2302</td>
     <td>43</td>
-    <td>10</td>
-    <td>86.48</td>
+    <td>58</td>
   </tr>
   <tr>
-    <td>luckyandfun</td>
-    <td>21052</td>
-    <td>5406</td>
-    <td>15</td>
-    <td>10</td>
-    <td>81.29</td>
+    <td>supersayian</td>
+    <td>1.47</td>
+    <td>1333</td>
+    <td>1163</td>
+    <td>233</td>
+    <td>159</td>
+    <td>44</td>
   </tr>
   <tr>
-    <td>aLdRyN</td>
-    <td>19529</td>
-    <td>4599</td>
-    <td>21</td>
-    <td>11</td>
-    <td>68.93</td>
+    <td>Sir Meliodas</td>
+    <td>0</td>
+    <td>5613</td>
+    <td>1495</td>
+    <td>175</td>
+    <td>2</td>
+    <td>3</td>
   </tr>
-  <tr>
-    <td>Meatball</td>
-    <td>11183</td>
-    <td>4240</td>
-    <td>10</td>
-    <td>9</td>
-    <td>30.48</td>
-  </tr>
-  <tr>
-    <td>Exblood</td>
-    <td>19518</td>
-    <td>3922</td>
-    <td>37</td>
-    <td>11</td>
-    <td>10.60</td>
+   <tr>
+    <td>Depr1ved</td>
+    <td>0</td>
+    <td>6796</td>
+    <td>3096</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
   </tr>
 </tbody>
 </table>
