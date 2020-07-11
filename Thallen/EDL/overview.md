@@ -1,5 +1,5 @@
 # EDL Weapons
-This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired that the player has acquired. The player with the highest rating receives their weapon.
+This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP that the player has acquired. The player with the highest rating receives their weapon.
 
 ## Protocol
 * The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
