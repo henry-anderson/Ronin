@@ -42,12 +42,12 @@ We must prevent inactive players who have acquired a large amount of points in t
  </tr>
  <tr align="center">
   <td><b>Lifetime</b></td>
-  <td>2400</td>
+  <td>3000</td>
   <td>3000</td>
  </tr>
  <tr align="center">
   <td><b>90 Day Activity</b></td>
-  <td>800</td>
+  <td>1000</td>
   <td>1000</td>
  </tr>
  <tr align="center">
@@ -61,11 +61,26 @@ We must prevent inactive players who have acquired a large amount of points in t
  </tr>
 </table>
 
-### Lifetime Minimum
-The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP. This requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. 
+### Lifetime and Activity Minimums
+<table>
+ <thead>
+  <tr align="center">
+    <th><br /><img src="https://i.imgur.com/iPssy5W.png" height="20px"><p /></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td><sub><i>         Player passes when the function's output equals 1         </i></sub><br /></td>
+  </tr>
+ </tbody>
+</table>
 
-### Recent Activity
-The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days. While this may seem too lenient we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
+<pre>
+<b>L<sub>  </sub></b>    The lifetime DKP of the player<br />
+<b>a<sub>90 </sub></b>    The player's 90 day activity<br />
+<b>a<sub>45 </sub></b>    The player's 45 day activity<br />
+</pre>
+The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 90 and 500 DKP in the past 45 days. The lifetime requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. The activity requirement may seem too lenient we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
 
 ### Declining Activity
 <table>
@@ -82,6 +97,7 @@ The player must have acquired at least 800 DKP for their main hand and 1000 DKP 
 </table>
 
 <pre>
+
 <b>a<sub>90 </sub></b>    The player's 90 day activity<br />
 <b>a<sub>45 </sub></b>    The player's 45 day activity<br />
 <b>a<sub>min</sub></b>    The minimum required activity (1000 or 800)
