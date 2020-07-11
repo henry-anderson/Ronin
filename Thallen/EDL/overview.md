@@ -42,7 +42,12 @@ We must prevent inactive players who have acquired a large amount of points in t
   <td>800</td>
   <td>1000</td>
  </tr>
+ <tr align="center">
+  <td><b>45 Day Activity</b></td>
+  <td>500</td>
+  <td>500</td>
 </table>
+<font size="1">(The 45 day activity requirement is defined in the formula for detecting declining activity)</font>
 
 ### Lifetime Minimum
 The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP.
@@ -51,14 +56,16 @@ The player must have at least 2400 lifetime DKP for their main hand and 3000 lif
 The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days.
 
 ### Declining Activity
-<img src="https://i.imgur.com/IjLSj5u.png" height="150px">
-<i>Player passes when this expression equals 1</i><br />
+<img src="https://i.imgur.com/IjLSj5u.png" height="75px">
+<i>Player passes when the function's output equals 1</i><br />
 <b>a<sub>90</sub></b>: The player's 90 day activity<br />
 <b>a<sub>45</sub></b>: The player's 45 day activity<br />
 <b>a<sub>min</sub></b>: The minimum required activity (1000 or 800)<br />
 
 <br />
-This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
+This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
+
+<
 
 ### Loyalty
 The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
