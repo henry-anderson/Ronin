@@ -20,19 +20,7 @@ Whether the amount of purenesses or class specific confluxes is used depends on 
 DKP is already weighted based on importance of the boss so it's very unlikely that someone with few unox or proteus attendances would rank very highly using this system. The purpose behind combined attendances being used is so that players with lockers aren't penalized. They are still able to transfer DKP to their main if they log their locker, but this is generally a practice most seem to use only on raids worth large amounts of points. It may seem unfair to people who are not dual loggers, but attendance plateus after a certain point making the benefit for dual loggers very minimal over people who play on a single toon. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
 
 ## Eligibility
-This is where it starts to get difficult. We must prevent inactive players who have acquired a large amount of points in the past from receiving Doch Gul along with players who rarely play on the account they have designated as their main DG account. Minimum amounts for combined lifetime, combined recent activity, main lifetime, and main activity can be used to disqualify these players.
-
-The problem that arises here is that the clan goes through cycles. It is much easier to accumulate points while we are prospering than it is during a down period. DKP inflation is another factor to consider making it likely that these minimum values will need to be changed. Constantly changing the minimums risks fracturing trust in the clan's leadership as it can be seen as manipulating the algorithm's outcome to disqualify certain players. The solution is the use of a dynamic minimum 90 day activity relative to the total 90 day DKP pool of the rest of the clan.
-
-<img src="https://i.imgur.com/rYxce11.png" width="500" align="right">Shown to the right is a 10 day moving average of the total 90 day DKP activity of the clan since 2018. For simplicity, this total can be referred to as the DKP pool. 
-
-It is significantly easier to acquire points during those peaks than it is during a trough. It's ignorant to assume we will never again dip below the 150,000 mark so the minimums must take that into consideration. The minimum will be based on a percentage of the total pool.
-
-It's no secret that I am a casual player. Personally, my 90 day activity is about 3000 as of 4/30/20. While I don't want to exclude casual players, it's hard to justify giving gloves to anyone with my activity. 3500 points currently equates to about 1.27% of the DKP pool which could potentially be used as a minimum for gloves. Right now (4/30/20) there are 37 separate players above that activity compared to only 13 players on 06/15/19. That shows that we couldn't simply use 3500 as  a constant otherwise it would make it too easy, or in some cases too hard to meet the requirement.
-
-Absolute minimum and maximums will also be used to make sure that the dynamic minimum never gets too high, in the case of server dominance, or too low. The ambiguity of these requirements will motivate players to aim for the higher end of this range to guarantee that they will be eligible when the time comes.
-
-Simply using minimum activity is not enough, another necessary requirement is steady activity. A power player may acquire twice the required minimum in one month then go inactive yet still be eligible from that single month. This can be solved by requiring the player's 45 day activity to be within a certain percentage of their 90 day activity.
+We must prevent inactive players who have acquired a large amount of points in the past from receiving their weapons along, players who have only recently joined the clan, and players whose activity is significantly declining.
 
 <table>
  <tr align="center">
@@ -41,24 +29,18 @@ Simply using minimum activity is not enough, another necessary requirement is st
  </tr>
  <tr align="center">
   <td><b>Requirement</b></td>
-  <td><b>Minimum (Gloves)</b></td>
-  <td><b>Maximum (Gloves)</b></td>
-  <td><b>Minimum (Chest+)</b></td>
-  <td><b>Maximum (Chest+)</b></td>
+  <td><b>Main Hand</b></td>
+  <td><b>Offhand</b></td>
  </tr>
  <tr align="center">
-  <td><b>Combined Lifetime</b></td>
-  <td>5000</td>
-  <td>10000</td>
-  <td>10000</td>
-  <td>25000</td>
+  <td><b>Lifetime</b></td>
+  <td>2400</td>
+  <td>3000</td>
  </tr>
  <tr align="center">
-  <td><b>Combined Recent</b></td>
-  <td>2500</td>
-  <td>4200</td>
-  <td>4500</td>
-  <td>8000</td>
+  <td><b>90 Day Activity</b></td>
+  <td>800</td>
+  <td>1000</td>
  </tr>
  <tr align="center">
   <td><b>Main Recent</b></td>
@@ -69,39 +51,7 @@ Simply using minimum activity is not enough, another necessary requirement is st
  </tr>
 </table>
 
-### Combined Recent Activity
-<table>
-  <tr align="center"><td colspan="2"><i>Player passes this requirement when a<sub>c90</sub> ≥ a<sub>cmin</sub></i></td</tr>
- <tr align="center">
-  <td><b>Gloves</b></td>
-  <td><b>Chest+</b></td>
- </tr>
- <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%202500%20%20%5Cleq%20%20x_1%20d_%7B90%7D%20%20%5Cleq%204200%0A%5C%5C4200%2C%20%26%20%5Ctext%7Bif%20%7D%20x_1%20d_%7B90%7D%20%5Ctextgreater%204200%0A%5C%5C2500%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20a_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_1%20d_%7B90%7D%2C%20%26%20%5Ctext%7Bif%20%7D%204500%20%20%5Cleq%20%20y_1%20d_%7B90%7D%20%20%5Cleq%208000%0A%5C%5C8000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_1%20d_%7B90%7D%20%20%20%5Ctextgreater%20%208000%0A%5C%5C4500%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
- </tr>
-</table>
-
-<b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
-<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-<b>d<sub>90</sub></b>: The 90 day DKP pool<br />
-<b>x<sub>1</sub></b>: A percent of the DKP pool used for players working on their gloves (to be decided)<br />
-<b>y<sub>1</sub></b>: A percent of the DKP pool used for players who already have gloves (to be decided)<br />
-<br />
-This makes the required 90 day activity to be a certain percent (x<sub>1</sub> and y<sub>1</sub>) of the DKP pool so long as it is within the defined range. Static maximum and minimums are set from 2500 to 4200 for gloves and 4500 to 8000 for any piece chest and above.
-
-x<sub>1</sub> and y<sub>1</sub> will eventually be constants, but the clan is currently at the highest peak it has ever seen so I will wait until I can see how this effects the graph of historical DKP pool values.
-
- ### Main Account's Recent Activity
- <img src="https://i.imgur.com/EEpGR2m.png"><br/>
- <i>Player passes when a<sub>90</sub> ≥ a<sub>min</sub></i><br />
-<b>a<sub>90</sub></b>: The 90 day activity of the player's main account<br />
-<b>a<sub>min</sub></b>: The minimum 90 day activity on the player's main account to qualify<br />
-<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-
-The player must have acquired at least 60% of the combined activity minimum on their main toon. This is necessary so that we don't give DG to a player who won't actually be using it. This number can range anywhere from 1500 to 2520 for gloves and 1800 to 3400 for anything higher.
-
-### Combined Lifetime Minimum
+### Lifetime Minimum
 <table>
  <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
  <tr align="center">
@@ -120,6 +70,9 @@ The player must have acquired at least 60% of the combined activity minimum on t
 <b>x<sub>2</sub></b>: A percent of the 90 day activity minimum used for players working on their gloves (to be decided)<br />
 <b>y<sub>2</sub></b>: A percent of the 90 day activity minimum used for players who already have gloves (to be decided)<br />
 <p />
+
+### Recent Activity
+The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days on the account involved in the vote.
 
 ### Declining Activity
 <img src="https://i.imgur.com/PHLTmPj.png">
