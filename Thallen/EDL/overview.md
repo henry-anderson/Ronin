@@ -5,7 +5,7 @@ This document defines a procedural and algorithmic approach in deciding which ca
 <table>
  <thead>
   <tr align="center">
-    <th><img src="https://i.imgur.com/Qfrykor.png" height="80%"></th>
+   <th><br /><img src="https://i.imgur.com/Qfrykor.png" height="80%"></p></th>
   </tr>
  </thead>
  <tbody>
@@ -54,7 +54,6 @@ We must prevent inactive players who have acquired a large amount of points in t
   <td><b>45 Day Activity</b></td>
   <td>500</td>
   <td>500</td>
-  
  </tr>
  <tr align="center">
    <td colspan="3"><sub><i>The 45 day minimum is defined in the function for declining activity</i></sub></td>
@@ -65,12 +64,12 @@ We must prevent inactive players who have acquired a large amount of points in t
 <table>
  <thead>
   <tr align="center">
-    <th><br /><img src="https://i.imgur.com/iPssy5W.png" height="20px"><p /></th>
+   <th><p><img src="https://i.imgur.com/iPssy5W.png" height="18px"></p></th>
   </tr>
  </thead>
  <tbody>
   <tr align="center">
-   <td><sub><i>         Player passes when the function's output equals 1         </i></sub><br /></td>
+   <td><sub><i>         Player passes when the function's output equals 1         </i></sub></td>
   </tr>
  </tbody>
 </table>
@@ -86,12 +85,12 @@ The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 9
 <table>
  <thead>
   <tr align="center">
-    <th><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></th>
+   <th><p><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></p></th>
   </tr>
  </thead>
  <tbody>
   <tr align="center">
-   <td><sub><i>Player passes when the function's output equals 1</i></sub><br /></td>
+   <td><sub><i>         Player passes when the function's output equals 1         </i></sub></td>
   </tr>
  </tbody>
 </table>
