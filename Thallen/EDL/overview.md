@@ -1,94 +1,23 @@
-# Doch Gul
-This document defines a procedural and algorithmic approach in deciding which candidates receive pieces of Doch Gul (DG) armor based on an unbias method in which clan leaders control very little of the decision making process. Generals decide on a category of players in which they want to distribute DG pieces too. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired across all of their accounts. The player with the highest rating receives the next piece of armor that they are working towards.
-
-## Categories
-Players are separated into four categories based on their class. When the clan is prepared to hand out DG, the Generals vote on one of these categories to decide which piece they would like to create without actually picking the player themselves. This allows strategy and the needs of the clan to continue to be incorporated as a factor in this process. Generally the limiting factor to create DG for rogues and rangers is class specific confluxes while for warriors, druids, and mages it is purenesses. The limiting factor of each category is used to determine each player's rating.
-<table>
- <tr>
-   <td><b>Ranger</b></td>
-   <td><b>Rogue</b></td>
-   <td><b>Other (Gloves)</b></td>
-   <td><b>Other (Chest+)</b></td>
- </tr>
- <tr>
-  <td><i>Class Conflux</i></td>
-  <td><i>Class Conflux</i></td>
-  <td><i>Pureness</i></td>
-  <td><i>Pureness</i></td>
- </tr> 
- <tr>
-   <td>All rangers compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
-   <td>All rogues compete with each other for the next piece of Doch Gul regardless of which pieces they currently have.</td>
-   <td>Warriors, Mages, and Druids who do not currently have gloves belong to this category.</td>
-   <td>Warriors, Mages, and Druids who already have their gloves and are currently working to obtain any other piece of Doch Gul.</td>
- </tr>
-</table> 
+# EDL Weapons
+This document defines a procedural and algorithmic approach in deciding which candidates receive EDL weapons on an unbias method in which clan leaders control very little of the decision making process. The General in charge of the respective EDL bank decides whether we will be distributing an offhand, or main hand weapon. Eligible players are assigned a rating value based on the lifetime and recent DKP acquired on the account in the vote. The player with the highest rating receives their weapon.
 
 ## Rating
-<img src="https://i.imgur.com/odfiM6A.png">
+<img src="https://i.imgur.com/CNGAn54.png" height="50px">
 <b>r</b>: The players rating<br />
-<b>L<sub>c</sub></b>: The combined lifetime DKP of the player across all accounts<br />
-<b>a<sub>c90</sub></b>: The combined DKP accumulated by the player over the last 90 days<br />
-<b>p</b>: The amount of confluxes (class specific or pureness) already given to the player combined with the amount of confluxes we would be investing in the player if they were to win their next piece of armor.<br />
-<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days.<br />
-<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days.
+<b>L<sub>c</sub></b>: The lifetime DKP of the player<br />
+<b>a<sub>c90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
+<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days across all accounts<br />
+<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days across all accounts
 
 <p />
 
-The player with the highest rating receives the next piece of Doch Gul in the order of gloves, chest, legs, boots, helm. Standardizing the player's rating with the amount of confluxes currently invested allows for comparison across players with different pieces. This lets all players that fall into a certain class compete with each other instead of separating players based on which pieces they currently have.
-
-The simplicity of the formula comes down to an equal weight between recent activity and past contribution creating a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
+The player with the highest rating receives the weapon. An equal weight between recent activity and past contribution creates a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
 
 Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. This is due to the fact that we have a surplus of warrior, mage, and druid confluxes. For DPS classes larger pieces are slightly favored as gloves take two class specific confluxes to make while a chest only takes five yet it is 5x stronger than the gloves.
 
-<table>
- <tr>
-  <td>Piece</td>
-  <td>Class Conflux</td>
-  <td>Pureness</td>
-  <td rowspan="6">
-
-As an example, <img src="https://render.githubusercontent.com/render/math?math=p%20=%207"> for a ranger who already has gloves because they would have used 7 total class specific confluxes to create their chest.
-
-If that player was a druid, <img src="https://render.githubusercontent.com/render/math?math=p%20=%206">, because pures are used instead as that is the limiting factor for warriors, mages, and druids and it would take 6 purenesses to create the player's chest.
-
-Suppose the player was a rogue and hasn't received any Doch Gul. In this sitation <img src="https://render.githubusercontent.com/render/math?math=p%20=%202"> as it would take two class specific confluxes to create their gloves.
-
-
-</td>
- </tr>
-  <tr>
-  <td>Gloves</td>
-  <td>2</td>
-  <td>1</td>
- </tr>
-   <tr>
-  <td>Boots</td>
-  <td>3</td>
-  <td>2</td>
- </tr>
-   <tr>
-  <td>Helm</td>
-  <td>4</td>
-  <td>3</td>
- </tr>
-   <tr>
-  <td>Legs</td>
-  <td>5</td>
-  <td>4</td>
- </tr>
-  <tr>
-  <td>Chest</td>
-  <td>5</td>
-  <td>5</td>
- </tr>
-
-</td>
-</table>
-
 <img src="https://i.imgur.com/WA9KvQr.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's proteus attendance is held constant while the rating at differing unox attendances is shown. Player's are penalized based on their proteus and unox attendances which exponentially decreases until that penalty is negligible. 
 
-DKP is already weighted based on importance of the boss so it's very unlikely that someone with few unox or proteus attendances would rank very highly using this system. This is used more as a way of stressing the importance of these two bosses and stating that if you want DG then you need to go to proteus and 215. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
+DKP is already weighted based on importance of the boss so it's very unlikely that someone with few unox or proteus attendances would rank very highly using this system. The purpose behind combined attendances being used is so that players with lockers aren't penalized. They are still able to transfer DKP to their main if they log their locker, but this is generally a practice most seem to use only on raids worth large amounts of points. It may seem unfair to people who are not dual loggers, but attendance plateus after a certain point making the benefit for dual loggers very minimal over people who play on a single toon. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
 
 ## Eligibility
 This is where it starts to get difficult. We must prevent inactive players who have acquired a large amount of points in the past from receiving Doch Gul along with players who rarely play on the account they have designated as their main DG account. Minimum amounts for combined lifetime, combined recent activity, main lifetime, and main activity can be used to disqualify these players.
