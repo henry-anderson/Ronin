@@ -4,20 +4,18 @@ This document defines a procedural and algorithmic approach in deciding which ca
 ## Rating
 <img src="https://i.imgur.com/Qfrykor.png">
 <b>r</b>: The players rating<br />
-<b>L<sub>c</sub></b>: The lifetime DKP of the player<br />
-<b>a<sub>c90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
-<b>k<sub>p</sub></b>: The amount of Proteus attendances in the past 60 days across all accounts<br />
-<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days across all accounts
+<b>L</b>: The lifetime DKP of the player<br />
+<b>a<sub>90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
+<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days across all accounts<br / >
+<b>k<sub>r</sub></b>: The amount of Revenant (210) attendances in the past 60 days across all accounts
 
 <p />
 
-The player with the highest rating receives the weapon. An equal weight between recent activity and past contribution creates a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
+The player with the highest rating receives the weapon. The formula comes down to an equal weight between recent activity and past contribution which creates a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
 
-Whether the amount of purenesses or class specific confluxes is used depends on the limiting factor. Class specific confluxes are used for rangers and rogues while purenesses are used for warriors, mages, and druids. This is due to the fact that we have a surplus of warrior, mage, and druid confluxes. For DPS classes larger pieces are slightly favored as gloves take two class specific confluxes to make while a chest only takes five yet it is 5x stronger than the gloves.
+<img src="https://i.imgur.com/WA9KvQr.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's Revenant attendance is held constant while the rating at differing Unox attendances is shown. Player's are penalized based on their Unox and Revenant attendances which exponentially decreases until that penalty is negligible. 
 
-<img src="https://i.imgur.com/WA9KvQr.png" width="500" align="right">Shown to the right is a graph that depicts the effect of attendance on a fictional player's rating who currently has 25000 lifetime and 5000 recent activity. The player's proteus attendance is held constant while the rating at differing unox attendances is shown. Player's are penalized based on their proteus and unox attendances which exponentially decreases until that penalty is negligible. 
-
-DKP is already weighted based on importance of the boss so it's very unlikely that someone with few unox or proteus attendances would rank very highly using this system. The purpose behind combined attendances being used is so that players with lockers aren't penalized. They are still able to transfer DKP to their main if they log their locker, but this is generally a practice most seem to use only on raids worth large amounts of points. It may seem unfair to people who are not dual loggers, but attendance plateus after a certain point making the benefit for dual loggers very minimal over people who play on a single toon. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
+DKP is already weighted based on importance of the boss so it's very unlikely that someone with attendances would rank very highly using this system. The purpose behind combined attendances being used is so that players with lockers aren't penalized. They are still able to transfer DKP to their main if they log their locker, but this is generally a practice most seem to use only on raids worth large amounts of points. It may seem unfair to people who are not dual loggers, but the effect attendance has on rating plateus after a certain point making the benefit for dual loggers very minimal over people who play on a single toon. This was implemented as part of the rating instead of a requirement so that players would continue to attend these bosses instead of stopping as soon as they hit the minimum. This way players will keep attending these bosses beyond a certain minimum so they incur the lowest possible penalty.
 
 ## Eligibility
 We must prevent inactive players who have acquired a large amount of points in the past from receiving their weapons along, players who have only recently joined the clan, and players whose activity is significantly declining.
@@ -53,18 +51,27 @@ We must prevent inactive players who have acquired a large amount of points in t
 </table>
 
 ### Lifetime Minimum
-The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP.
+The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP. This requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. 
 
 ### Recent Activity
-The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days.
+The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days. While this may seem too lenient we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
 
 ### Declining Activity
-<img src="https://i.imgur.com/IjLSj5u.png" height="75px">
-<i>Player passes when the function's output equals 1</i><br />
+<table>
+ <thead>
+  <tr align="center">
+    <th><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr align="center">
+   <td><sub><i>Player passes when the function's output equals 1</i></sub><br /></td>
+  </tr>
+ </tbody>
+</table>
 <b>a<sub>90</sub></b>: The player's 90 day activity<br />
 <b>a<sub>45</sub></b>: The player's 45 day activity<br />
 <b>a<sub>min</sub></b>: The minimum required activity (1000 or 800)<br />
-
 <br />
 This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
 
@@ -78,7 +85,7 @@ Despite Palaemon's lifetime, he is third because of his relatively low activity.
 
 <table>
 <thead>
-  <tr>
+  <tr align="center">
     <th>Name</th>
     <th>Rating / 10<sup>6</sup></th>
     <th>Lifetime</th>
