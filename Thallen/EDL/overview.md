@@ -15,10 +15,10 @@ This document defines a procedural and algorithmic approach in deciding which ca
  </tbody>
 </table>
 <pre>
-<b>L</b>     The lifetime DKP of the player<br />
+<b>L</b>    The lifetime DKP of the player<br />
 <b>a<sub>90</sub></b>   The DKP accumulated by the player over the last 90 days<br />
 <b>k<sub>u</sub></b>    The amount of Unox (215) attendances in the past 60 days across all accounts<br />
-<b>k<sub>r</sub></b>    The amount of Revenant (210) attendances in the past 60 days across all accounts<br />
+<b>k<sub>r</sub></b>    The amount of Revenant (210) attendances in the past 60 days across all accounts
 </pre>
 <p />
 
@@ -33,9 +33,9 @@ We must prevent inactive players who have acquired a large amount of points in t
 
 <table>
  <tr align="center">
-  <td colspan="4"><b>Overview of the Minimum Requirements</b></td>
+  <td colspan="3"><b>Overview of the Minimum Requirements</b></td>
  </tr>
- <tr align="center"
+ <tr align="center">
   <td><b>Requirement</b></td>
   <td><b>Main Hand</b></td>
   <td><b>Offhand</b></td>
@@ -80,10 +80,13 @@ The player must have acquired at least 800 DKP for their main hand and 1000 DKP 
   </tr>
  </tbody>
 </table>
-<b>a<sub>90</sub></b>: The player's 90 day activity<br />
-<b>a<sub>45</sub></b>: The player's 45 day activity<br />
-<b>a<sub>min</sub></b>: The minimum required activity (1000 or 800)<br />
-<br />
+
+<pre>
+<b>a<sub>90</sub></b>    The player's 90 day activity<br />
+<b>a<sub>45</sub></b>    The player's 45 day activity<br />
+<b>a<sub>min</sub></b>   The minimum required activity (1000 or 800)
+</pre>
+
 This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
 
 ### Loyalty
