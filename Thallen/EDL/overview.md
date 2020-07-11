@@ -14,12 +14,12 @@ This document defines a procedural and algorithmic approach in deciding which ca
   </tr>
  </tbody>
 </table>
-
-<b>L</b>: The lifetime DKP of the player<br />
-<b>a<sub>90</sub></b>: The DKP accumulated by the player over the last 90 days<br />
-<b>k<sub>u</sub></b>: The amount of Unox (215) attendances in the past 60 days across all accounts<br / >
-<b>k<sub>r</sub></b>: The amount of Revenant (210) attendances in the past 60 days across all accounts<br / >
-
+<pre>
+<b>L</b>     The lifetime DKP of the player<br />
+<b>a<sub>90</sub></b>   The DKP accumulated by the player over the last 90 days<br />
+<b>k<sub>u</sub></b>    The amount of Unox (215) attendances in the past 60 days across all accounts<br />
+<b>k<sub>r</sub></b>    The amount of Revenant (210) attendances in the past 60 days across all accounts<br />
+</pre>
 <p />
 
 The player with the highest rating receives the weapon. The formula comes down to an equal weight between recent activity and past contribution which creates a balance between new players and old players. This allows new players to thrive in the clan, while still requiring old players to put in the work.
