@@ -69,10 +69,10 @@ The player must have acquired at least 800 DKP for their main hand and 1000 DKP 
 This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
 
 ### Loyalty
-The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
+The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main toon left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
 
 ## Discussion
-Below is a theoretical rogue offhand vote based on data from 07/11/2020. Sneakashell would be the winner as his rating is the highest due to his high lifetime and activity. Thallen would be second because his lifetime is high, but activity is low in comparison. Assuming everyone's lifetime and attendance stayed constant, if Thallen wanted to win his 90 day activity would need to increase to 10800. They have about the same lifetime points, but Thallen incurs a larger attendance deduction than Sneakashell which is why his activity would need to be almost 11000. If his attendance matched Sneakashell's, Thallen would only need to increase his 90 day activity to 9250.
+Below is a theoretical rogue offhand vote based on data from 07/11/2020. Sneakashell would be the winner as his rating is the highest due to his high lifetime and activity. Thallen would be second because his lifetime is high, but activity is low in comparison. Assuming everyone's lifetime and attendance stayed constant, if Thallen wanted to win his 90 day activity would need to increase to 10800. They have about the same lifetime points, but Thallen incurs a larger attendance deduction than Sneakashell which is why his activity would need to be significantly higher. If his attendance matched Sneakashell's, Thallen would only need to increase his 90 day activity to 9250.
 
 Despite Palaemon's lifetime, he is third because of his relatively low activity. Assuming constant lifetime and attendance he would need to increase his 90 day activity to 1600 to beat Thallen and 7000 to beat Sneakashell. Some TankGuy is a newer player with low lifetime, but good activity. His lifetime would need to be 5300 to beat Palaemon and 7000 to beat Thallen.
 
@@ -166,6 +166,77 @@ Despite Palaemon's lifetime, he is third because of his relatively low activity.
 Supersayian, Sir Meliodas, and Depr1ved did not pass the necessary requirements to qualify. Supersayian would need to surpass 3000 lifetime to qualify. He would also need to increase his 45 day activity by about 250 points to pass the declining activity requirement. Sir Meliodas did not pass the declining activity requirement as his 45 day activity is only 10% of his 90 day activity. His rating is zero because his attendance within the past 60 days was minimal.
 
 Depr1ved was a power player who recently went inactive. Despite having acquired 3096 points in the past 90 days he is not eligible. He has not received any points in the past 45 days which automatically disqualifies him as it is under 500.
+
+<table>
+ <thead>
+  <tr>
+    <th>Name</th>
+    <th>Lifetime</sup></th>
+    <th>90 day</th>
+    <th>45 day</th>
+    <th>Declining Activity</th>
+    <th>Attendance</th>
+  </tr>
+</thead>
+ <tbody>
+  <tr>
+    <td>Sneakashell</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Thallen</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Palaemon</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>Some TankGuy</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+    <td>True</td>
+  </tr>
+  <tr>
+    <td>supersayian</td>
+    <td>False</td>
+    <td>True</td>
+    <td>False</td>
+    <td>False</td>
+    <td>True</td>
+  </tr>
+  <tr>
+   <td>Sir Meliodas</td>
+    <td>True</td>
+    <td>True</td>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
+  </tr>
+   <tr>
+    <td>Depr1ved</td>
+    <td>True</td>
+    <td>True</td>
+    <td>False</td>
+    <td>False</td>
+    <td>False</td>
+  </tr>
+ </tbody>
+ </table>
 
 ## Protocol
 * The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
