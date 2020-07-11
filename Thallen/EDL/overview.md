@@ -69,9 +69,6 @@ We must prevent inactive players who have acquired a large amount of points in t
   <td>500</td>
   <td>500</td>
  </tr>
- <tr align="center">
-   <td colspan="3"><sub><i>The 45 day minimum is defined in the function for declining activity</i></sub></td>
- </tr>
 </table>
 
 ### Lifetime and Activity Minimums
