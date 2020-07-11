@@ -72,7 +72,9 @@ This prevents players with declining activity from qualifying. In simplistic ter
 The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
 
 ## Discussion
-Below is a theoretical rogue offhand vote.
+Below is a theoretical rogue offhand vote based on data from 07/11/2020. Sneakashell would be the winner as his rating is the highest due to his high lifetime and activity. Thallen would be second because his lifetime is high, but activity is low in comparison. Assuming everyone's lifetime and attendance stayed constant, if Thallen wanted to win his 90 day activity would need to increase to 10800. They have about the same lifetime points, but Thallen incurs a larger attendance deduction than Sneakashell which is why his activity would need to be almost 11000. If his attendance matched Sneakashell's, Thallen would only need to increase his 90 day activity to 9250.
+
+Despite Palaemon's lifetime, he is third because of his relatively low activity. Assuming constant lifetime and attendance he would need to increase his 90 day activity to 1600 to beat Thallen and 7000 to beat Sneakashell. Some TankGuy is a newer player with low lifetime, but good activity. His lifetime would need to be 5300 to beat Palaemon and 7000 to beat Thallen.
 
 <table>
 <thead>
@@ -84,7 +86,7 @@ Below is a theoretical rogue offhand vote.
     <th>45 day</th>
     <th>Unox</th>
     <th>Revenant</th>
-   <th>Rating / 10<sup>6</sup></th>
+   <th>Eligible</th>
   </tr>
 </thead>
 <tbody>
@@ -96,6 +98,7 @@ Below is a theoretical rogue offhand vote.
     <td>3839</td>
     <td>163</td>
     <td>86</td>
+   <td>True</td>
   </tr>
   <tr>
     <td>Thallen</td>
@@ -105,6 +108,7 @@ Below is a theoretical rogue offhand vote.
     <td>1169</td>
     <td>36</td>
     <td>20</td>
+   <td>True</td>
   </tr>
   <tr>
     <td>Palaemon</td>
@@ -114,6 +118,7 @@ Below is a theoretical rogue offhand vote.
     <td>515</td>
     <td>57</td>
     <td>19</td>
+   <td>True</td>
   </tr>
   <tr>
     <td>Some TankGuy</td>
@@ -123,6 +128,7 @@ Below is a theoretical rogue offhand vote.
     <td>2302</td>
     <td>43</td>
     <td>58</td>
+   <td>True</td>
   </tr>
   <tr>
     <td>supersayian</td>
@@ -132,6 +138,7 @@ Below is a theoretical rogue offhand vote.
     <td>233</td>
     <td>159</td>
     <td>44</td>
+   <td>False</td>
   </tr>
   <tr>
     <td>Sir Meliodas</td>
@@ -141,6 +148,7 @@ Below is a theoretical rogue offhand vote.
     <td>175</td>
     <td>2</td>
     <td>3</td>
+   <td>False</td>
   </tr>
    <tr>
     <td>Depr1ved</td>
@@ -150,14 +158,14 @@ Below is a theoretical rogue offhand vote.
     <td>0</td>
     <td>0</td>
     <td>0</td>
+    <td>False</td>
   </tr>
 </tbody>
 </table>
 
-Despite having a significant more amount of activity, proteus, and 215 kills, S3XYMAGE and luckyandfun are not far behind Raynard Winters. This is because he already has his gloves and the rating scale is standardized based on the amount of confluxes the player would be using. That means he has to work harder to receive his chest before the others receive their gloves. This is also the reason that Exblood's rating is so low relative to the others as he already has DG gloves.
-</p>
+Supersayian, Sir Meliodas, and Depr1ved did not pass the necessary requirements to qualify. Supersayian would need to surpass 3000 lifetime to qualify. He would also need to increase his 45 day activity by about 250 points to pass the declining activity requirement. Sir Meliodas did not pass the declining activity requirement as his 45 day activity is only 10% of his 90 day activity. His rating is zero because his attendance within the past 60 days was minimal.
 
-The problem that is holding down luckyandfun's rating is his 215 and proteus attendances. If this were not taken into account he would rank higher than both Raynard and S3XYMAGE. If these were rangers or rogues there would be less of a gap between players working towards their chest and players working on gloves because class confluxes are used. That creates about a 1 to 3.5 ratio between the two compared to the 1 to 5 ratio used here as pures are the limiting factor.
+Depr1ved was a power player who recently went inactive. Despite having acquired 3096 points in the past 90 days he is not eligible. He has not received any points in the past 45 days which automatically disqualifies him as it is under 500.
 
 ## Protocol
 * The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
