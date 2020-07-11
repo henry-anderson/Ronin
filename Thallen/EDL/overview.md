@@ -64,7 +64,7 @@ We must prevent inactive players who have acquired a large amount of points in t
 <table>
  <thead>
   <tr align="center">
-   <th><p><img src="https://i.imgur.com/iPssy5W.png" height="18px"></p></th>
+   <th><br /><img src="https://i.imgur.com/iPssy5W.png" height="18px"></p></th>
   </tr>
  </thead>
  <tbody>
@@ -85,7 +85,7 @@ The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 9
 <table>
  <thead>
   <tr align="center">
-   <th><p><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></p></th>
+   <th><br /><img src="https://i.imgur.com/IjLSj5u.png" height="75px"></p></th>
   </tr>
  </thead>
  <tbody>
