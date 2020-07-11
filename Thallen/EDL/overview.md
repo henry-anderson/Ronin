@@ -213,7 +213,7 @@ Below is a theoretical rogue offhand vote based on data from 07/11/2020. Sneakas
 
 Despite Palaemon's lifetime, he is third because of his relatively low activity. Assuming constant lifetime and attendance he would need to increase his 90 day activity to 1600 to beat Thallen and 7000 to beat Sneakashell. Some TankGuy is a newer player with low lifetime, but good activity. His lifetime would need to be 5300 to beat Palaemon and 7000 to beat Thallen.
 
-The table below depicts which requirements each player is passing. While attendance isn't technically a requirement, it still ruins a player's rating at a certain point which is why it is included in the table.
+The table below depicts which requirements each player has passed. While attendance isn't technically a requirement, it still ruins a player's rating at a certain point which is why it is included in the table.
 
 <table>
  <thead>
