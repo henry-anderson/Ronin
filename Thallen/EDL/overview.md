@@ -47,7 +47,8 @@ We must prevent inactive players who have acquired a large amount of points in t
   <td>500</td>
   <td>500</td>
 </table>
-<span style="font-size:3px;">(The 45 day activity requirement is defined in the formula for detecting declining activity)</span>
+
+<div style="font-size:3px;">The 45 day activity requirement is defined in the formula for detecting declining activity</div>
 
 ### Lifetime Minimum
 The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP.
