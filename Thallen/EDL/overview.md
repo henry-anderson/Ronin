@@ -16,7 +16,7 @@ This document defines a procedural and algorithmic approach in deciding which ca
 </table>
 <pre>
 <b>L<sub>  </sub></b>    The lifetime DKP of the player<br />
-<b>a<sub>90</sub></b>   The DKP accumulated by the player over the last 90 days<br />
+<b>a<sub>90</sub></b>    The DKP accumulated by the player over the last 90 days<br />
 <b>k<sub>u </sub></b>    The amount of Unox (215) attendances in the past 60 days across all accounts<br />
 <b>k<sub>r </sub></b>    The amount of Revenant (210) attendances in the past 60 days across all accounts
 </pre>
