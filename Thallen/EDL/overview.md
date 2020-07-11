@@ -25,7 +25,7 @@ We must prevent inactive players who have acquired a large amount of points in t
 <table>
  <tr align="center">
   <td></td>
-  <td colspan="4"><b>Overview of the Absolute Minimum and Maximum Values</b></td>
+  <td colspan="4"><b>Overview of the Minimum Requirements</b></td>
  </tr>
  <tr align="center">
   <td><b>Requirement</b></td>
@@ -42,49 +42,26 @@ We must prevent inactive players who have acquired a large amount of points in t
   <td>800</td>
   <td>1000</td>
  </tr>
- <tr align="center">
-  <td><b>Main Recent</b></td>
-  <td>1500</td>
-  <td>2520</td>
-  <td>2700</td>
-  <td>4800</td>
- </tr>
 </table>
 
 ### Lifetime Minimum
-<table>
- <tr align="center"><td colspan="2"><i>Player passes this requirement when L<sub>c</sub> ≥ L<sub>cmin</sub></i></td</tr>
- <tr align="center">
-  <td><b>Gloves</b></td>
-  <td><b>Chest+</b></td>
- </tr>
- <tr align="center">
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ax_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%205000%20%20%5Cleq%20%20x_2%20a_%7Bcmin%7D%20%20%5Cleq%2010000%0A%5C%5C10000%2C%20%26%20%5Ctext%7Bif%20%7D%20x_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2010000%0A%5C%5C5000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
-  <td><img src="https://render.githubusercontent.com/render/math?math=%5Clarge%20L_%7Bcmin%7D%20%3D%5Cbegin%7Bcases%7D%0Ay_2%20a_%7Bcmin%7D%2C%20%26%20%5Ctext%7Bif%20%7D%2010000%20%20%5Cleq%20%20y_2%20a_%7Bcmin%7D%20%20%5Cleq%2025000%0A%5C%5C25000%2C%20%26%20%5Ctext%7Bif%20%7D%20y_2%20a_%7Bcmin%7D%20%20%20%5Ctextgreater%20%2025000%0A%5C%5C10000%2C%20%26%20otherwise%0A%5Cend%7Bcases%7D%20"></td>
- </tr>
-</table>
-
-<b>L<sub>c</sub></b>: The player's combined lifetime DKP<br />
-<b>L<sub>cmin</sub></b>: The minimum combined lifetime to qualify<br />
-<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
-<b>x<sub>2</sub></b>: A percent of the 90 day activity minimum used for players working on their gloves (to be decided)<br />
-<b>y<sub>2</sub></b>: A percent of the 90 day activity minimum used for players who already have gloves (to be decided)<br />
-<p />
+The player must have at least 2400 lifetime DKP for their main hand and 3000 lifetime DKP.
 
 ### Recent Activity
-The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days on the account involved in the vote.
+The player must have acquired at least 800 DKP for their main hand and 1000 DKP for their offhand in the past 90 days.
 
 ### Declining Activity
-<img src="https://i.imgur.com/PHLTmPj.png">
-<i>Player passes when this expression is true</i><br />
-<b>a<sub>c90</sub></b>: The player's combined 90 day activity<br />
-<b>a<sub>c45</sub></b>: The player's combined 45 day activity<br />
-<b>a<sub>cmin</sub></b>: The minimum combined 90 day activity to qualify<br />
+<img src="https://i.imgur.com/IjLSj5u.png" height="150px">
+<i>Player passes when this expression equals 1</i><br />
+<b>a<sub>90</sub></b>: The player's 90 day activity<br />
+<b>a<sub>45</sub></b>: The player's 45 day activity<br />
+<b>a<sub>min</sub></b>: The minimum required activity (1000 or 800)<br />
+
 <br />
-This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than 80% of the minimum requirement. The last option is to give some leniency to power players who have far surpasses the minimum.
+This prevents players with declining activity from qualifying. They must either have acquired at least 30% of their 90 day total within the past 45 days or their 45 day total must be more than the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
 
 ### Loyalty
-The player must be in the clan for at least 90 days for gloves and 180 days for anything higher. Looking at lifetime DKP is a very good indicator of loyalty, but it has its flaws. Players must be out of the clan for 30 days before their lifetime is wiped which is where this fails. There are many unstable players who leave for short periods of time yet it has no effect on their lifetime. It is very risky to give these players our most valued armor.
+The player must be in the clan for at least 90 days without leaving to receive either of their weapons. If the toon was outside of the clan and recently joined, but their main had been in the clan for the past 90 days they still qualify which is a situation that has been seen in the past by Lya and Ouch's toons. The reverse it also true. If your main left the clan within 90 days, but the toon in question remained in they do not qualify. Whether a player left or not is sometimes ambiguous and this will be left up to the General's to decide.
 
 ## Discussion
 Suppose we grouped all warriors, druids, and mages into a single category regardless of whether they have already received their gloves. Without looking at any other requirements this is what the top 6 candidate's rating would look like on 06/07/2020.
@@ -158,7 +135,7 @@ Despite having a significant more amount of activity, proteus, and 215 kills, S3
 The problem that is holding down luckyandfun's rating is his 215 and proteus attendances. If this were not taken into account he would rank higher than both Raynard and S3XYMAGE. If these were rangers or rogues there would be less of a gap between players working towards their chest and players working on gloves because class confluxes are used. That creates about a 1 to 3.5 ratio between the two compared to the 1 to 5 ratio used here as pures are the limiting factor.
 
 ## Protocol
-* Generals hold a 24 hour vote on a category of players
+* The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
 * A final count is completed
 * Proteus and Unox attendances are added up for each player in the chosen category
 * All relevant information is inserted into the program
