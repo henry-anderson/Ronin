@@ -77,7 +77,7 @@ We must prevent inactive players who have acquired a large amount of points in t
 <pre>
 <b>L<sub>  </sub></b>    The lifetime DKP of the player<br />
 <b>a<sub>90 </sub></b>    The player's 90 day activity<br />
-<b>a<sub>45 </sub></b>    The player's 45 day activity<br />
+<b>a<sub>45 </sub></b>    The player's 45 day activity
 </pre>
 The player must have at least 3000 lifetime DKP, acquired 1000 DKP in the past 90 and 500 DKP in the past 45 days. The lifetime requirement is to make sure that players have put in enough work before receiving their weapons when the banks are saturated and their competition is limited. The activity requirement may seem too lenient we need to make sure casual players and players with multiple toons can succeed too. This is also quite low due to the saturation of some classes. It is much easier to get an EDL offhand for a druid than it is for a rogue.
 
@@ -278,15 +278,14 @@ The table below depicts which requirements each player is passing. While attenda
 
 ## Protocol
 * The General in charge of the bank decides whether we will be giving away an offhand or main hand weapon
-* A final count is completed
-* Proteus and Unox attendances are added up for each player in the chosen category
+* A final count is completed if there has not been on in the past 7 days
+* Unox and Revenant attendances are added up for each player for the past 60 days
 * All relevant information is inserted into the program
-* The winner along with all input data is posted in the general group to be audited for mistakes for a 24 hour period
+* The winner along with all input data is posted in the general group to be audited for mistakes for a 12 hour period
 * Drops are sent and the winner is announced to the clan
 
 It's a bad idea to post the raw results directly to the clan as it may indirectly cause drama and shaming for inactivity. Instead clan members should be allowed to request this information directly from us to see how they ranked and where they need to improve.
 
-If a winner is chosen and we do not yet have the required confluxes to distribute that piece of armor then it will be postponed and the entire process will be repeated when we have acquired the necessary components. The same category of players must be selected and the same winner must be chosen for them to actually receive their Doch Gul.
+If a player does not meet the requirements the Generals can hold a vote to bypass immediate elimination so long as it results in at least 75% in favor. This does not cause them to automatically win, it just allows them to be included. Their rating still decides whether they will win. This can be used when the bank is saturated and there are no eligible players.
 
-## Conclusion
-Determining Doch Gul recipients based on an algorithmic approach is far superior than a vote based system. Ever since we moved beyond simply distributing gloves it has become increasingly difficult to make the best decisions with some players having different pieces than others. This rating scale standardizes each player's rating to match the amount of confluxes that will be invested in them so that players with no DG can be compared to both players with gloves and chest or even players in Lark, or Rengwen's situation. It's simply impossible to take every piece of information into account using a vote based system yet it can be done in milliseconds here without any accusations of bias. This system gives each player practically complete control over whether they will be receiving DG or not instead of depending on faith in their leadership.
+Generals can also vote on whether to deny a winner and either give the weapon to the runner up, or save it in the bank. This vote must be <b>unanimous</b> making it unlikely to pass unless there is a very good reason.
