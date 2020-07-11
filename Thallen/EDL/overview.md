@@ -82,9 +82,9 @@ The player must have acquired at least 800 DKP for their main hand and 1000 DKP 
 </table>
 
 <pre>
-<b>a<sub>90</sub></b>    The player's 90 day activity<br />
-<b>a<sub>45</sub></b>    The player's 45 day activity<br />
-<b>a<sub>min</sub></b>   The minimum required activity (1000 or 800)
+<b>a<sub>90 </sub></b>    The player's 90 day activity<br />
+<b>a<sub>45 </sub></b>    The player's 45 day activity<br />
+<b>a<sub>min</sub></b>    The minimum required activity (1000 or 800)
 </pre>
 
 This prevents players with declining activity from qualifying. In simplistic terms, the first function requires that player to have a minimum of 500 points in the past 45 days or they do not qualify. The second function uses an Iverson bracket to show that the player must either have acquired 30% of their 90 day total within the past 45 days or their 45 day activity must be 1.5x the minimum requirement. The last option is to give some leniency to power players who have far surpassed the minimum.
