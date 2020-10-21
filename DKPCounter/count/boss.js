@@ -175,22 +175,22 @@ const Boss = {
         aliases: ["proteusbase", "proteus_base", "protb", "base"],
         points: {
             attempt: true,
-            camp: 5,
+            camp: 10,
             park: 0,
             kill4: 0,
             kill5: 0,
-            kill6: 60,
+            kill6: 55,
         }
     },
     PROTEUS_PRIME: {
         aliases: ["proteusprime", "proteus_prime", "protp", "prime"],
         points: {
             attempt: true,
-            camp: 5,
+            camp: 10,
             park: 0,
             kill4: 0,
             kill5: 0,
-            kill6: 80,
+            kill6: 75,
         }
     },
     GELEBRON: {
