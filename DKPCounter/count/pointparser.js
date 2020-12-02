@@ -2,11 +2,11 @@ function BossPointParser(line) {
     this.line = line.toLowerCase();
     let splitOn = this.line.split(" on ");
     let first = splitOn[0];
-    if(splitOn[1].includes(".")) {
-        this.players = splitOn[1].split(".");
+    if(splitOn[1].includes(",")) {
+        this.players = splitOn[1].split(",");
     }
     else {
-        this.players = splitOn[1].split(",");
+        this.players = splitOn[1].split(".");
     }
     let keywords = first.split(" ");
     this.boss = getBoss(keywords[0]);
