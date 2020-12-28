@@ -98,8 +98,8 @@ const Boss = {
             camp: 0,
             park: 0,
             kill4: 5,
-            kill5: 10,
-            kill6: 15,
+            kill5: 12,
+            kill6: 20,
         }
     },
     EDL_210: {
